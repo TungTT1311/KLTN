@@ -1,7 +1,8 @@
 #ifndef OBJECT_DETECTION_H
 #define OBJECT_DETECTION_H
 #pragma once
-#include "opencv2/core/utility.hpp"
+#include <opencv4/opencv2/tracking/tracker.hpp>
+#include <opencv4/opencv2/core/utility.hpp>
 #include <vector>
 #include <string>
 #include "gpu.h"

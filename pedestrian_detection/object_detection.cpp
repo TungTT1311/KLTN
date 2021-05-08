@@ -12,8 +12,9 @@ ObjectDetection::~ObjectDetection(){ncnn::destroy_gpu_instance(); mobilenet.clea
 
 std::vector<cv::Rect> ObjectDetection::detectObject(const cv::Mat& _frame)
 {
+
     std::vector<cv::Rect> boxes;
-    
+
     int img_h = _frame.size().height;
     int img_w = _frame.size().width;
 
@@ -43,11 +44,13 @@ std::vector<cv::Rect> ObjectDetection::detectObject(const cv::Mat& _frame)
         object.rec.y = values[3] * img_h;
         object.rec.width = values[4] * img_w - object.rec.x;
         object.rec.height = values[5] * img_h - object.rec.y;
+	
         objects.push_back(object);
         // Threshold
-        if(object.prob > 0.5)
+        if(object.prob > 0.8)
         {
             boxes.push_back(object.rec);
+	    
         }
     }
 

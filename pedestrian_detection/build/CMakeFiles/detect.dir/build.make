@@ -125,6 +125,7 @@ detect: /usr/lib/aarch64-linux-gnu/libopencv_photo.so.4.1.1
 detect: /usr/lib/aarch64-linux-gnu/libopencv_stitching.so.4.1.1
 detect: /usr/lib/aarch64-linux-gnu/libopencv_video.so.4.1.1
 detect: /usr/lib/aarch64-linux-gnu/libopencv_videoio.so.4.1.1
+detect: /usr/local/lib/libopencv_tracking.so
 detect: ncnn_build/src/libncnn.a
 detect: /usr/lib/aarch64-linux-gnu/libopencv_imgcodecs.so.4.1.1
 detect: /usr/lib/aarch64-linux-gnu/libopencv_calib3d.so.4.1.1

@@ -16,5 +16,7 @@ include_directories(${OpenCV_INCLUDE_DIRS})
 
 add_executable(detect test.cpp object_detection.cpp)
 
-target_link_libraries(detect ${OpenCV_LIBS} ncnn stdc++fs)
+target_link_libraries(detect ${OpenCV_LIBS} /usr/local/lib/libopencv_tracking.so ncnn stdc++fs)
+
+MESSAGE("OpenCV_LIBS: " ${OpenCV_LIBS})
 
