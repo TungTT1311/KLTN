@@ -4,7 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/jetson/Desktop/person_detection/pedestrian_detection/camera_tracking.cpp" "/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/detect.dir/camera_tracking.cpp.o"
   "/home/jetson/Desktop/person_detection/pedestrian_detection/object_detection.cpp" "/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/detect.dir/object_detection.cpp.o"
+  "/home/jetson/Desktop/person_detection/pedestrian_detection/robot_move.cpp" "/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/detect.dir/robot_move.cpp.o"
+  "/home/jetson/Desktop/person_detection/pedestrian_detection/src/anchor_creator.cpp" "/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/detect.dir/src/anchor_creator.cpp.o"
+  "/home/jetson/Desktop/person_detection/pedestrian_detection/src/config.cpp" "/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/detect.dir/src/config.cpp.o"
+  "/home/jetson/Desktop/person_detection/pedestrian_detection/src/utils.cpp" "/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/detect.dir/src/utils.cpp.o"
   "/home/jetson/Desktop/person_detection/pedestrian_detection/test.cpp" "/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/detect.dir/test.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
@@ -12,7 +17,7 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../../ncnn/src"
-  "/usr/include/opencv4"
+  "/usr/local/include/opencv4"
   "/home/jetson/Desktop/person_detection/ncnn/src"
   "ncnn_build/src"
   )

@@ -105,34 +105,211 @@ CMakeFiles/detect.dir/object_detection.cpp.o.provides: CMakeFiles/detect.dir/obj
 CMakeFiles/detect.dir/object_detection.cpp.o.provides.build: CMakeFiles/detect.dir/object_detection.cpp.o
 
 
+CMakeFiles/detect.dir/camera_tracking.cpp.o: CMakeFiles/detect.dir/flags.make
+CMakeFiles/detect.dir/camera_tracking.cpp.o: ../camera_tracking.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/detect.dir/camera_tracking.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/detect.dir/camera_tracking.cpp.o -c /home/jetson/Desktop/person_detection/pedestrian_detection/camera_tracking.cpp
+
+CMakeFiles/detect.dir/camera_tracking.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/detect.dir/camera_tracking.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Desktop/person_detection/pedestrian_detection/camera_tracking.cpp > CMakeFiles/detect.dir/camera_tracking.cpp.i
+
+CMakeFiles/detect.dir/camera_tracking.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/detect.dir/camera_tracking.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Desktop/person_detection/pedestrian_detection/camera_tracking.cpp -o CMakeFiles/detect.dir/camera_tracking.cpp.s
+
+CMakeFiles/detect.dir/camera_tracking.cpp.o.requires:
+
+.PHONY : CMakeFiles/detect.dir/camera_tracking.cpp.o.requires
+
+CMakeFiles/detect.dir/camera_tracking.cpp.o.provides: CMakeFiles/detect.dir/camera_tracking.cpp.o.requires
+	$(MAKE) -f CMakeFiles/detect.dir/build.make CMakeFiles/detect.dir/camera_tracking.cpp.o.provides.build
+.PHONY : CMakeFiles/detect.dir/camera_tracking.cpp.o.provides
+
+CMakeFiles/detect.dir/camera_tracking.cpp.o.provides.build: CMakeFiles/detect.dir/camera_tracking.cpp.o
+
+
+CMakeFiles/detect.dir/robot_move.cpp.o: CMakeFiles/detect.dir/flags.make
+CMakeFiles/detect.dir/robot_move.cpp.o: ../robot_move.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/detect.dir/robot_move.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/detect.dir/robot_move.cpp.o -c /home/jetson/Desktop/person_detection/pedestrian_detection/robot_move.cpp
+
+CMakeFiles/detect.dir/robot_move.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/detect.dir/robot_move.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Desktop/person_detection/pedestrian_detection/robot_move.cpp > CMakeFiles/detect.dir/robot_move.cpp.i
+
+CMakeFiles/detect.dir/robot_move.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/detect.dir/robot_move.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Desktop/person_detection/pedestrian_detection/robot_move.cpp -o CMakeFiles/detect.dir/robot_move.cpp.s
+
+CMakeFiles/detect.dir/robot_move.cpp.o.requires:
+
+.PHONY : CMakeFiles/detect.dir/robot_move.cpp.o.requires
+
+CMakeFiles/detect.dir/robot_move.cpp.o.provides: CMakeFiles/detect.dir/robot_move.cpp.o.requires
+	$(MAKE) -f CMakeFiles/detect.dir/build.make CMakeFiles/detect.dir/robot_move.cpp.o.provides.build
+.PHONY : CMakeFiles/detect.dir/robot_move.cpp.o.provides
+
+CMakeFiles/detect.dir/robot_move.cpp.o.provides.build: CMakeFiles/detect.dir/robot_move.cpp.o
+
+
+CMakeFiles/detect.dir/src/anchor_creator.cpp.o: CMakeFiles/detect.dir/flags.make
+CMakeFiles/detect.dir/src/anchor_creator.cpp.o: ../src/anchor_creator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/detect.dir/src/anchor_creator.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/detect.dir/src/anchor_creator.cpp.o -c /home/jetson/Desktop/person_detection/pedestrian_detection/src/anchor_creator.cpp
+
+CMakeFiles/detect.dir/src/anchor_creator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/detect.dir/src/anchor_creator.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Desktop/person_detection/pedestrian_detection/src/anchor_creator.cpp > CMakeFiles/detect.dir/src/anchor_creator.cpp.i
+
+CMakeFiles/detect.dir/src/anchor_creator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/detect.dir/src/anchor_creator.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Desktop/person_detection/pedestrian_detection/src/anchor_creator.cpp -o CMakeFiles/detect.dir/src/anchor_creator.cpp.s
+
+CMakeFiles/detect.dir/src/anchor_creator.cpp.o.requires:
+
+.PHONY : CMakeFiles/detect.dir/src/anchor_creator.cpp.o.requires
+
+CMakeFiles/detect.dir/src/anchor_creator.cpp.o.provides: CMakeFiles/detect.dir/src/anchor_creator.cpp.o.requires
+	$(MAKE) -f CMakeFiles/detect.dir/build.make CMakeFiles/detect.dir/src/anchor_creator.cpp.o.provides.build
+.PHONY : CMakeFiles/detect.dir/src/anchor_creator.cpp.o.provides
+
+CMakeFiles/detect.dir/src/anchor_creator.cpp.o.provides.build: CMakeFiles/detect.dir/src/anchor_creator.cpp.o
+
+
+CMakeFiles/detect.dir/src/config.cpp.o: CMakeFiles/detect.dir/flags.make
+CMakeFiles/detect.dir/src/config.cpp.o: ../src/config.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/detect.dir/src/config.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/detect.dir/src/config.cpp.o -c /home/jetson/Desktop/person_detection/pedestrian_detection/src/config.cpp
+
+CMakeFiles/detect.dir/src/config.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/detect.dir/src/config.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Desktop/person_detection/pedestrian_detection/src/config.cpp > CMakeFiles/detect.dir/src/config.cpp.i
+
+CMakeFiles/detect.dir/src/config.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/detect.dir/src/config.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Desktop/person_detection/pedestrian_detection/src/config.cpp -o CMakeFiles/detect.dir/src/config.cpp.s
+
+CMakeFiles/detect.dir/src/config.cpp.o.requires:
+
+.PHONY : CMakeFiles/detect.dir/src/config.cpp.o.requires
+
+CMakeFiles/detect.dir/src/config.cpp.o.provides: CMakeFiles/detect.dir/src/config.cpp.o.requires
+	$(MAKE) -f CMakeFiles/detect.dir/build.make CMakeFiles/detect.dir/src/config.cpp.o.provides.build
+.PHONY : CMakeFiles/detect.dir/src/config.cpp.o.provides
+
+CMakeFiles/detect.dir/src/config.cpp.o.provides.build: CMakeFiles/detect.dir/src/config.cpp.o
+
+
+CMakeFiles/detect.dir/src/utils.cpp.o: CMakeFiles/detect.dir/flags.make
+CMakeFiles/detect.dir/src/utils.cpp.o: ../src/utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/detect.dir/src/utils.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/detect.dir/src/utils.cpp.o -c /home/jetson/Desktop/person_detection/pedestrian_detection/src/utils.cpp
+
+CMakeFiles/detect.dir/src/utils.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/detect.dir/src/utils.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Desktop/person_detection/pedestrian_detection/src/utils.cpp > CMakeFiles/detect.dir/src/utils.cpp.i
+
+CMakeFiles/detect.dir/src/utils.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/detect.dir/src/utils.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Desktop/person_detection/pedestrian_detection/src/utils.cpp -o CMakeFiles/detect.dir/src/utils.cpp.s
+
+CMakeFiles/detect.dir/src/utils.cpp.o.requires:
+
+.PHONY : CMakeFiles/detect.dir/src/utils.cpp.o.requires
+
+CMakeFiles/detect.dir/src/utils.cpp.o.provides: CMakeFiles/detect.dir/src/utils.cpp.o.requires
+	$(MAKE) -f CMakeFiles/detect.dir/build.make CMakeFiles/detect.dir/src/utils.cpp.o.provides.build
+.PHONY : CMakeFiles/detect.dir/src/utils.cpp.o.provides
+
+CMakeFiles/detect.dir/src/utils.cpp.o.provides.build: CMakeFiles/detect.dir/src/utils.cpp.o
+
+
 # Object files for target detect
 detect_OBJECTS = \
 "CMakeFiles/detect.dir/test.cpp.o" \
-"CMakeFiles/detect.dir/object_detection.cpp.o"
+"CMakeFiles/detect.dir/object_detection.cpp.o" \
+"CMakeFiles/detect.dir/camera_tracking.cpp.o" \
+"CMakeFiles/detect.dir/robot_move.cpp.o" \
+"CMakeFiles/detect.dir/src/anchor_creator.cpp.o" \
+"CMakeFiles/detect.dir/src/config.cpp.o" \
+"CMakeFiles/detect.dir/src/utils.cpp.o"
 
 # External object files for target detect
 detect_EXTERNAL_OBJECTS =
 
 detect: CMakeFiles/detect.dir/test.cpp.o
 detect: CMakeFiles/detect.dir/object_detection.cpp.o
+detect: CMakeFiles/detect.dir/camera_tracking.cpp.o
+detect: CMakeFiles/detect.dir/robot_move.cpp.o
+detect: CMakeFiles/detect.dir/src/anchor_creator.cpp.o
+detect: CMakeFiles/detect.dir/src/config.cpp.o
+detect: CMakeFiles/detect.dir/src/utils.cpp.o
 detect: CMakeFiles/detect.dir/build.make
-detect: /usr/lib/aarch64-linux-gnu/libopencv_dnn.so.4.1.1
-detect: /usr/lib/aarch64-linux-gnu/libopencv_gapi.so.4.1.1
-detect: /usr/lib/aarch64-linux-gnu/libopencv_highgui.so.4.1.1
-detect: /usr/lib/aarch64-linux-gnu/libopencv_ml.so.4.1.1
-detect: /usr/lib/aarch64-linux-gnu/libopencv_objdetect.so.4.1.1
-detect: /usr/lib/aarch64-linux-gnu/libopencv_photo.so.4.1.1
-detect: /usr/lib/aarch64-linux-gnu/libopencv_stitching.so.4.1.1
-detect: /usr/lib/aarch64-linux-gnu/libopencv_video.so.4.1.1
-detect: /usr/lib/aarch64-linux-gnu/libopencv_videoio.so.4.1.1
-detect: /usr/local/lib/libopencv_tracking.so
+detect: /usr/local/lib/libopencv_gapi.so.4.4.0
+detect: /usr/local/lib/libopencv_stitching.so.4.4.0
+detect: /usr/local/lib/libopencv_alphamat.so.4.4.0
+detect: /usr/local/lib/libopencv_aruco.so.4.4.0
+detect: /usr/local/lib/libopencv_bgsegm.so.4.4.0
+detect: /usr/local/lib/libopencv_bioinspired.so.4.4.0
+detect: /usr/local/lib/libopencv_ccalib.so.4.4.0
+detect: /usr/local/lib/libopencv_cudabgsegm.so.4.4.0
+detect: /usr/local/lib/libopencv_cudafeatures2d.so.4.4.0
+detect: /usr/local/lib/libopencv_cudaobjdetect.so.4.4.0
+detect: /usr/local/lib/libopencv_cudastereo.so.4.4.0
+detect: /usr/local/lib/libopencv_dnn_objdetect.so.4.4.0
+detect: /usr/local/lib/libopencv_dnn_superres.so.4.4.0
+detect: /usr/local/lib/libopencv_dpm.so.4.4.0
+detect: /usr/local/lib/libopencv_face.so.4.4.0
+detect: /usr/local/lib/libopencv_freetype.so.4.4.0
+detect: /usr/local/lib/libopencv_fuzzy.so.4.4.0
+detect: /usr/local/lib/libopencv_hfs.so.4.4.0
+detect: /usr/local/lib/libopencv_img_hash.so.4.4.0
+detect: /usr/local/lib/libopencv_intensity_transform.so.4.4.0
+detect: /usr/local/lib/libopencv_line_descriptor.so.4.4.0
+detect: /usr/local/lib/libopencv_quality.so.4.4.0
+detect: /usr/local/lib/libopencv_rapid.so.4.4.0
+detect: /usr/local/lib/libopencv_reg.so.4.4.0
+detect: /usr/local/lib/libopencv_rgbd.so.4.4.0
+detect: /usr/local/lib/libopencv_saliency.so.4.4.0
+detect: /usr/local/lib/libopencv_stereo.so.4.4.0
+detect: /usr/local/lib/libopencv_structured_light.so.4.4.0
+detect: /usr/local/lib/libopencv_superres.so.4.4.0
+detect: /usr/local/lib/libopencv_surface_matching.so.4.4.0
+detect: /usr/local/lib/libopencv_tracking.so.4.4.0
+detect: /usr/local/lib/libopencv_videostab.so.4.4.0
+detect: /usr/local/lib/libopencv_xfeatures2d.so.4.4.0
+detect: /usr/local/lib/libopencv_xobjdetect.so.4.4.0
+detect: /usr/local/lib/libopencv_xphoto.so.4.4.0
 detect: ncnn_build/src/libncnn.a
-detect: /usr/lib/aarch64-linux-gnu/libopencv_imgcodecs.so.4.1.1
-detect: /usr/lib/aarch64-linux-gnu/libopencv_calib3d.so.4.1.1
-detect: /usr/lib/aarch64-linux-gnu/libopencv_features2d.so.4.1.1
-detect: /usr/lib/aarch64-linux-gnu/libopencv_flann.so.4.1.1
-detect: /usr/lib/aarch64-linux-gnu/libopencv_imgproc.so.4.1.1
-detect: /usr/lib/aarch64-linux-gnu/libopencv_core.so.4.1.1
+detect: /usr/local/lib/libopencv_shape.so.4.4.0
+detect: /usr/local/lib/libopencv_highgui.so.4.4.0
+detect: /usr/local/lib/libopencv_datasets.so.4.4.0
+detect: /usr/local/lib/libopencv_plot.so.4.4.0
+detect: /usr/local/lib/libopencv_text.so.4.4.0
+detect: /usr/local/lib/libopencv_dnn.so.4.4.0
+detect: /usr/local/lib/libopencv_ml.so.4.4.0
+detect: /usr/local/lib/libopencv_phase_unwrapping.so.4.4.0
+detect: /usr/local/lib/libopencv_cudacodec.so.4.4.0
+detect: /usr/local/lib/libopencv_videoio.so.4.4.0
+detect: /usr/local/lib/libopencv_cudaoptflow.so.4.4.0
+detect: /usr/local/lib/libopencv_cudalegacy.so.4.4.0
+detect: /usr/local/lib/libopencv_cudawarping.so.4.4.0
+detect: /usr/local/lib/libopencv_optflow.so.4.4.0
+detect: /usr/local/lib/libopencv_ximgproc.so.4.4.0
+detect: /usr/local/lib/libopencv_video.so.4.4.0
+detect: /usr/local/lib/libopencv_imgcodecs.so.4.4.0
+detect: /usr/local/lib/libopencv_objdetect.so.4.4.0
+detect: /usr/local/lib/libopencv_calib3d.so.4.4.0
+detect: /usr/local/lib/libopencv_features2d.so.4.4.0
+detect: /usr/local/lib/libopencv_flann.so.4.4.0
+detect: /usr/local/lib/libopencv_photo.so.4.4.0
+detect: /usr/local/lib/libopencv_cudaimgproc.so.4.4.0
+detect: /usr/local/lib/libopencv_cudafilters.so.4.4.0
+detect: /usr/local/lib/libopencv_imgproc.so.4.4.0
+detect: /usr/local/lib/libopencv_cudaarithm.so.4.4.0
+detect: /usr/local/lib/libopencv_core.so.4.4.0
+detect: /usr/local/lib/libopencv_cudev.so.4.4.0
 detect: /usr/lib/gcc/aarch64-linux-gnu/7/libgomp.so
 detect: /usr/lib/aarch64-linux-gnu/libpthread.so
 detect: /usr/lib/aarch64-linux-gnu/libvulkan.so
@@ -143,7 +320,7 @@ detect: ncnn_build/glslang/OGLCompilersDLL/libOGLCompiler.a
 detect: ncnn_build/glslang/glslang/OSDependent/Unix/libOSDependent.a
 detect: ncnn_build/glslang/glslang/libGenericCodeGen.a
 detect: CMakeFiles/detect.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable detect"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable detect"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/detect.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -153,6 +330,11 @@ CMakeFiles/detect.dir/build: detect
 
 CMakeFiles/detect.dir/requires: CMakeFiles/detect.dir/test.cpp.o.requires
 CMakeFiles/detect.dir/requires: CMakeFiles/detect.dir/object_detection.cpp.o.requires
+CMakeFiles/detect.dir/requires: CMakeFiles/detect.dir/camera_tracking.cpp.o.requires
+CMakeFiles/detect.dir/requires: CMakeFiles/detect.dir/robot_move.cpp.o.requires
+CMakeFiles/detect.dir/requires: CMakeFiles/detect.dir/src/anchor_creator.cpp.o.requires
+CMakeFiles/detect.dir/requires: CMakeFiles/detect.dir/src/config.cpp.o.requires
+CMakeFiles/detect.dir/requires: CMakeFiles/detect.dir/src/utils.cpp.o.requires
 
 .PHONY : CMakeFiles/detect.dir/requires
 

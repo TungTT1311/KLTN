@@ -12,7 +12,7 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/jetson/Desktop/person_detection/ncnn/examples/../src"
   "ncnn_build/examples/../src"
-  "/usr/include/opencv4"
+  "/usr/local/include/opencv4"
   "/home/jetson/Desktop/person_detection/ncnn/src"
   "ncnn_build/src"
   )

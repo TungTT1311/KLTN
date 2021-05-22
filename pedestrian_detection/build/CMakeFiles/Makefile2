@@ -72,7 +72,7 @@ CMakeFiles/detect.dir/all: ncnn_build/glslang/SPIRV/CMakeFiles/SPIRV.dir/all
 CMakeFiles/detect.dir/all: ncnn_build/src/CMakeFiles/ncnn.dir/all
 	$(MAKE) -f CMakeFiles/detect.dir/build.make CMakeFiles/detect.dir/depend
 	$(MAKE) -f CMakeFiles/detect.dir/build.make CMakeFiles/detect.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles --progress-num= "Built target detect"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles --progress-num=8 "Built target detect"
 .PHONY : CMakeFiles/detect.dir/all
 
 # Include target in all.
@@ -266,7 +266,7 @@ ncnn_build/glslang/glslang/CMakeFiles/glslang.dir/all: ncnn_build/glslang/glslan
 ncnn_build/glslang/glslang/CMakeFiles/glslang.dir/all: ncnn_build/glslang/OGLCompilersDLL/CMakeFiles/OGLCompiler.dir/all
 	$(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/glslang.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/glslang.dir/depend
 	$(MAKE) -f ncnn_build/glslang/glslang/CMakeFiles/glslang.dir/build.make ncnn_build/glslang/glslang/CMakeFiles/glslang.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles --progress-num=8 "Built target glslang"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles --progress-num= "Built target glslang"
 .PHONY : ncnn_build/glslang/glslang/CMakeFiles/glslang.dir/all
 
 # Include target in all.
@@ -276,7 +276,7 @@ all: ncnn_build/glslang/glslang/CMakeFiles/glslang.dir/all
 
 # Build rule for subdir invocation for target.
 ncnn_build/glslang/glslang/CMakeFiles/glslang.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 ncnn_build/glslang/glslang/CMakeFiles/glslang.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 0
 .PHONY : ncnn_build/glslang/glslang/CMakeFiles/glslang.dir/rule
@@ -506,7 +506,7 @@ all: ncnn_build/src/CMakeFiles/ncnn.dir/all
 
 # Build rule for subdir invocation for target.
 ncnn_build/src/CMakeFiles/ncnn.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 92
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 91
 	$(MAKE) -f CMakeFiles/Makefile2 ncnn_build/src/CMakeFiles/ncnn.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 0
 .PHONY : ncnn_build/src/CMakeFiles/ncnn.dir/rule
@@ -599,7 +599,7 @@ all: ncnn_build/benchmark/CMakeFiles/benchncnn.dir/all
 
 # Build rule for subdir invocation for target.
 ncnn_build/benchmark/CMakeFiles/benchncnn.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 92
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 91
 	$(MAKE) -f CMakeFiles/Makefile2 ncnn_build/benchmark/CMakeFiles/benchncnn.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 0
 .PHONY : ncnn_build/benchmark/CMakeFiles/benchncnn.dir/rule
@@ -692,7 +692,7 @@ all: ncnn_build/examples/CMakeFiles/yolov3.dir/all
 
 # Build rule for subdir invocation for target.
 ncnn_build/examples/CMakeFiles/yolov3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 92
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 91
 	$(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/CMakeFiles/yolov3.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 0
 .PHONY : ncnn_build/examples/CMakeFiles/yolov3.dir/rule
@@ -735,7 +735,7 @@ all: ncnn_build/examples/CMakeFiles/simplepose.dir/all
 
 # Build rule for subdir invocation for target.
 ncnn_build/examples/CMakeFiles/simplepose.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 92
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 91
 	$(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/CMakeFiles/simplepose.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 0
 .PHONY : ncnn_build/examples/CMakeFiles/simplepose.dir/rule
@@ -778,7 +778,7 @@ all: ncnn_build/examples/CMakeFiles/rfcn.dir/all
 
 # Build rule for subdir invocation for target.
 ncnn_build/examples/CMakeFiles/rfcn.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 93
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 92
 	$(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/CMakeFiles/rfcn.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 0
 .PHONY : ncnn_build/examples/CMakeFiles/rfcn.dir/rule
@@ -821,7 +821,7 @@ all: ncnn_build/examples/CMakeFiles/nanodet.dir/all
 
 # Build rule for subdir invocation for target.
 ncnn_build/examples/CMakeFiles/nanodet.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 92
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 91
 	$(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/CMakeFiles/nanodet.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 0
 .PHONY : ncnn_build/examples/CMakeFiles/nanodet.dir/rule
@@ -864,7 +864,7 @@ all: ncnn_build/examples/CMakeFiles/shufflenetv2.dir/all
 
 # Build rule for subdir invocation for target.
 ncnn_build/examples/CMakeFiles/shufflenetv2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 92
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 91
 	$(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/CMakeFiles/shufflenetv2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 0
 .PHONY : ncnn_build/examples/CMakeFiles/shufflenetv2.dir/rule
@@ -907,7 +907,7 @@ all: ncnn_build/examples/CMakeFiles/yolov4.dir/all
 
 # Build rule for subdir invocation for target.
 ncnn_build/examples/CMakeFiles/yolov4.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 92
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 91
 	$(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/CMakeFiles/yolov4.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 0
 .PHONY : ncnn_build/examples/CMakeFiles/yolov4.dir/rule
@@ -950,7 +950,7 @@ all: ncnn_build/examples/CMakeFiles/squeezenet.dir/all
 
 # Build rule for subdir invocation for target.
 ncnn_build/examples/CMakeFiles/squeezenet.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 93
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 92
 	$(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/CMakeFiles/squeezenet.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 0
 .PHONY : ncnn_build/examples/CMakeFiles/squeezenet.dir/rule
@@ -993,7 +993,7 @@ all: ncnn_build/examples/CMakeFiles/squeezenet_c_api.dir/all
 
 # Build rule for subdir invocation for target.
 ncnn_build/examples/CMakeFiles/squeezenet_c_api.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 92
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 91
 	$(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/CMakeFiles/squeezenet_c_api.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 0
 .PHONY : ncnn_build/examples/CMakeFiles/squeezenet_c_api.dir/rule
@@ -1036,7 +1036,7 @@ all: ncnn_build/examples/CMakeFiles/yolov5.dir/all
 
 # Build rule for subdir invocation for target.
 ncnn_build/examples/CMakeFiles/yolov5.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 93
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 92
 	$(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/CMakeFiles/yolov5.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 0
 .PHONY : ncnn_build/examples/CMakeFiles/yolov5.dir/rule
@@ -1079,7 +1079,7 @@ all: ncnn_build/examples/CMakeFiles/yolov2.dir/all
 
 # Build rule for subdir invocation for target.
 ncnn_build/examples/CMakeFiles/yolov2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 93
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 92
 	$(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/CMakeFiles/yolov2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 0
 .PHONY : ncnn_build/examples/CMakeFiles/yolov2.dir/rule
@@ -1122,7 +1122,7 @@ all: ncnn_build/examples/CMakeFiles/mobilenetv2ssdlite.dir/all
 
 # Build rule for subdir invocation for target.
 ncnn_build/examples/CMakeFiles/mobilenetv2ssdlite.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 92
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 91
 	$(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/CMakeFiles/mobilenetv2ssdlite.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 0
 .PHONY : ncnn_build/examples/CMakeFiles/mobilenetv2ssdlite.dir/rule
@@ -1155,7 +1155,7 @@ ncnn_build/examples/CMakeFiles/mobilenetssd.dir/all: ncnn_build/glslang/SPIRV/CM
 ncnn_build/examples/CMakeFiles/mobilenetssd.dir/all: ncnn_build/src/CMakeFiles/ncnn.dir/all
 	$(MAKE) -f ncnn_build/examples/CMakeFiles/mobilenetssd.dir/build.make ncnn_build/examples/CMakeFiles/mobilenetssd.dir/depend
 	$(MAKE) -f ncnn_build/examples/CMakeFiles/mobilenetssd.dir/build.make ncnn_build/examples/CMakeFiles/mobilenetssd.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles --progress-num= "Built target mobilenetssd"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles --progress-num=9 "Built target mobilenetssd"
 .PHONY : ncnn_build/examples/CMakeFiles/mobilenetssd.dir/all
 
 # Include target in all.
@@ -1208,7 +1208,7 @@ all: ncnn_build/examples/CMakeFiles/squeezenetssd.dir/all
 
 # Build rule for subdir invocation for target.
 ncnn_build/examples/CMakeFiles/squeezenetssd.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 92
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 91
 	$(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/CMakeFiles/squeezenetssd.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 0
 .PHONY : ncnn_build/examples/CMakeFiles/squeezenetssd.dir/rule
@@ -1251,7 +1251,7 @@ all: ncnn_build/examples/CMakeFiles/peleenetssd_seg.dir/all
 
 # Build rule for subdir invocation for target.
 ncnn_build/examples/CMakeFiles/peleenetssd_seg.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 92
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 91
 	$(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/CMakeFiles/peleenetssd_seg.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 0
 .PHONY : ncnn_build/examples/CMakeFiles/peleenetssd_seg.dir/rule
@@ -1294,7 +1294,7 @@ all: ncnn_build/examples/CMakeFiles/fasterrcnn.dir/all
 
 # Build rule for subdir invocation for target.
 ncnn_build/examples/CMakeFiles/fasterrcnn.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 92
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 91
 	$(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/CMakeFiles/fasterrcnn.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 0
 .PHONY : ncnn_build/examples/CMakeFiles/fasterrcnn.dir/rule
@@ -1337,7 +1337,7 @@ all: ncnn_build/examples/CMakeFiles/retinaface.dir/all
 
 # Build rule for subdir invocation for target.
 ncnn_build/examples/CMakeFiles/retinaface.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 92
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 91
 	$(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/CMakeFiles/retinaface.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 0
 .PHONY : ncnn_build/examples/CMakeFiles/retinaface.dir/rule
@@ -1380,7 +1380,7 @@ all: ncnn_build/examples/CMakeFiles/yolact.dir/all
 
 # Build rule for subdir invocation for target.
 ncnn_build/examples/CMakeFiles/yolact.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 92
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 91
 	$(MAKE) -f CMakeFiles/Makefile2 ncnn_build/examples/CMakeFiles/yolact.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 0
 .PHONY : ncnn_build/examples/CMakeFiles/yolact.dir/rule
@@ -1459,7 +1459,7 @@ all: ncnn_build/tools/CMakeFiles/ncnnoptimize.dir/all
 
 # Build rule for subdir invocation for target.
 ncnn_build/tools/CMakeFiles/ncnnoptimize.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 92
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 91
 	$(MAKE) -f CMakeFiles/Makefile2 ncnn_build/tools/CMakeFiles/ncnnoptimize.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 0
 .PHONY : ncnn_build/tools/CMakeFiles/ncnnoptimize.dir/rule
@@ -1539,7 +1539,7 @@ all: ncnn_build/tools/CMakeFiles/ncnn2mem.dir/all
 
 # Build rule for subdir invocation for target.
 ncnn_build/tools/CMakeFiles/ncnn2mem.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 93
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 92
 	$(MAKE) -f CMakeFiles/Makefile2 ncnn_build/tools/CMakeFiles/ncnn2mem.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 0
 .PHONY : ncnn_build/tools/CMakeFiles/ncnn2mem.dir/rule
@@ -1584,7 +1584,7 @@ ncnn_build/tools/caffe/preinstall:
 ncnn_build/tools/caffe/CMakeFiles/caffe2ncnn.dir/all:
 	$(MAKE) -f ncnn_build/tools/caffe/CMakeFiles/caffe2ncnn.dir/build.make ncnn_build/tools/caffe/CMakeFiles/caffe2ncnn.dir/depend
 	$(MAKE) -f ncnn_build/tools/caffe/CMakeFiles/caffe2ncnn.dir/build.make ncnn_build/tools/caffe/CMakeFiles/caffe2ncnn.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles --progress-num=7 "Built target caffe2ncnn"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles --progress-num= "Built target caffe2ncnn"
 .PHONY : ncnn_build/tools/caffe/CMakeFiles/caffe2ncnn.dir/all
 
 # Include target in all.
@@ -1594,7 +1594,7 @@ all: ncnn_build/tools/caffe/CMakeFiles/caffe2ncnn.dir/all
 
 # Build rule for subdir invocation for target.
 ncnn_build/tools/caffe/CMakeFiles/caffe2ncnn.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 ncnn_build/tools/caffe/CMakeFiles/caffe2ncnn.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 0
 .PHONY : ncnn_build/tools/caffe/CMakeFiles/caffe2ncnn.dir/rule
@@ -1639,7 +1639,7 @@ ncnn_build/tools/mxnet/preinstall:
 ncnn_build/tools/mxnet/CMakeFiles/mxnet2ncnn.dir/all:
 	$(MAKE) -f ncnn_build/tools/mxnet/CMakeFiles/mxnet2ncnn.dir/build.make ncnn_build/tools/mxnet/CMakeFiles/mxnet2ncnn.dir/depend
 	$(MAKE) -f ncnn_build/tools/mxnet/CMakeFiles/mxnet2ncnn.dir/build.make ncnn_build/tools/mxnet/CMakeFiles/mxnet2ncnn.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles --progress-num=9 "Built target mxnet2ncnn"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles --progress-num= "Built target mxnet2ncnn"
 .PHONY : ncnn_build/tools/mxnet/CMakeFiles/mxnet2ncnn.dir/all
 
 # Include target in all.
@@ -1649,7 +1649,7 @@ all: ncnn_build/tools/mxnet/CMakeFiles/mxnet2ncnn.dir/all
 
 # Build rule for subdir invocation for target.
 ncnn_build/tools/mxnet/CMakeFiles/mxnet2ncnn.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 ncnn_build/tools/mxnet/CMakeFiles/mxnet2ncnn.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 0
 .PHONY : ncnn_build/tools/mxnet/CMakeFiles/mxnet2ncnn.dir/rule
@@ -1749,7 +1749,7 @@ ncnn_build/tools/darknet/preinstall:
 ncnn_build/tools/darknet/CMakeFiles/darknet2ncnn.dir/all:
 	$(MAKE) -f ncnn_build/tools/darknet/CMakeFiles/darknet2ncnn.dir/build.make ncnn_build/tools/darknet/CMakeFiles/darknet2ncnn.dir/depend
 	$(MAKE) -f ncnn_build/tools/darknet/CMakeFiles/darknet2ncnn.dir/build.make ncnn_build/tools/darknet/CMakeFiles/darknet2ncnn.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles --progress-num= "Built target darknet2ncnn"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles --progress-num=7 "Built target darknet2ncnn"
 .PHONY : ncnn_build/tools/darknet/CMakeFiles/darknet2ncnn.dir/all
 
 # Include target in all.
@@ -1759,7 +1759,7 @@ all: ncnn_build/tools/darknet/CMakeFiles/darknet2ncnn.dir/all
 
 # Build rule for subdir invocation for target.
 ncnn_build/tools/darknet/CMakeFiles/darknet2ncnn.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 ncnn_build/tools/darknet/CMakeFiles/darknet2ncnn.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 0
 .PHONY : ncnn_build/tools/darknet/CMakeFiles/darknet2ncnn.dir/rule
@@ -1822,7 +1822,7 @@ all: ncnn_build/tools/quantize/CMakeFiles/ncnn2int8.dir/all
 
 # Build rule for subdir invocation for target.
 ncnn_build/tools/quantize/CMakeFiles/ncnn2int8.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 92
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 91
 	$(MAKE) -f CMakeFiles/Makefile2 ncnn_build/tools/quantize/CMakeFiles/ncnn2int8.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 0
 .PHONY : ncnn_build/tools/quantize/CMakeFiles/ncnn2int8.dir/rule
@@ -1865,7 +1865,7 @@ all: ncnn_build/tools/quantize/CMakeFiles/ncnn2table.dir/all
 
 # Build rule for subdir invocation for target.
 ncnn_build/tools/quantize/CMakeFiles/ncnn2table.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 92
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 91
 	$(MAKE) -f CMakeFiles/Makefile2 ncnn_build/tools/quantize/CMakeFiles/ncnn2table.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles 0
 .PHONY : ncnn_build/tools/quantize/CMakeFiles/ncnn2table.dir/rule

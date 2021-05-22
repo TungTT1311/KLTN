@@ -91,8 +91,8 @@ nanodet_EXTERNAL_OBJECTS =
 ncnn_build/examples/nanodet: ncnn_build/examples/CMakeFiles/nanodet.dir/nanodet.cpp.o
 ncnn_build/examples/nanodet: ncnn_build/examples/CMakeFiles/nanodet.dir/build.make
 ncnn_build/examples/nanodet: ncnn_build/src/libncnn.a
-ncnn_build/examples/nanodet: /usr/lib/aarch64-linux-gnu/libopencv_highgui.so.4.1.1
-ncnn_build/examples/nanodet: /usr/lib/aarch64-linux-gnu/libopencv_videoio.so.4.1.1
+ncnn_build/examples/nanodet: /usr/local/lib/libopencv_highgui.so.4.4.0
+ncnn_build/examples/nanodet: /usr/local/lib/libopencv_videoio.so.4.4.0
 ncnn_build/examples/nanodet: /usr/lib/gcc/aarch64-linux-gnu/7/libgomp.so
 ncnn_build/examples/nanodet: /usr/lib/aarch64-linux-gnu/libpthread.so
 ncnn_build/examples/nanodet: /usr/lib/aarch64-linux-gnu/libvulkan.so
@@ -102,9 +102,10 @@ ncnn_build/examples/nanodet: ncnn_build/glslang/glslang/libMachineIndependent.a
 ncnn_build/examples/nanodet: ncnn_build/glslang/OGLCompilersDLL/libOGLCompiler.a
 ncnn_build/examples/nanodet: ncnn_build/glslang/glslang/OSDependent/Unix/libOSDependent.a
 ncnn_build/examples/nanodet: ncnn_build/glslang/glslang/libGenericCodeGen.a
-ncnn_build/examples/nanodet: /usr/lib/aarch64-linux-gnu/libopencv_imgcodecs.so.4.1.1
-ncnn_build/examples/nanodet: /usr/lib/aarch64-linux-gnu/libopencv_imgproc.so.4.1.1
-ncnn_build/examples/nanodet: /usr/lib/aarch64-linux-gnu/libopencv_core.so.4.1.1
+ncnn_build/examples/nanodet: /usr/local/lib/libopencv_imgcodecs.so.4.4.0
+ncnn_build/examples/nanodet: /usr/local/lib/libopencv_imgproc.so.4.4.0
+ncnn_build/examples/nanodet: /usr/local/lib/libopencv_core.so.4.4.0
+ncnn_build/examples/nanodet: /usr/local/lib/libopencv_cudev.so.4.4.0
 ncnn_build/examples/nanodet: ncnn_build/examples/CMakeFiles/nanodet.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable nanodet"
 	cd /home/jetson/Desktop/person_detection/pedestrian_detection/build/ncnn_build/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/nanodet.dir/link.txt --verbose=$(VERBOSE)

@@ -28,28 +28,28 @@ The CXX compiler identification is GNU, found in "/home/jetson/Desktop/person_de
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3ba92/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3ba92.dir/build.make CMakeFiles/cmTC_3ba92.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_b6169/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b6169.dir/build.make CMakeFiles/cmTC_b6169.dir/build
 make[1]: Entering directory '/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3ba92.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_3ba92.dir/testCCompiler.c.o   -c /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_3ba92
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ba92.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_3ba92.dir/testCCompiler.c.o  -o cmTC_3ba92 
+Building C object CMakeFiles/cmTC_b6169.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_b6169.dir/testCCompiler.c.o   -c /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_b6169
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6169.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_b6169.dir/testCCompiler.c.o  -o cmTC_b6169 
 make[1]: Leaving directory '/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0e3eb/fast"
-/usr/bin/make -f CMakeFiles/cmTC_0e3eb.dir/build.make CMakeFiles/cmTC_0e3eb.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_325fd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_325fd.dir/build.make CMakeFiles/cmTC_325fd.dir/build
 make[1]: Entering directory '/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_0e3eb.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_0e3eb.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_0e3eb
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e3eb.dir/link.txt --verbose=1
-/usr/bin/cc     -v CMakeFiles/cmTC_0e3eb.dir/CMakeCCompilerABI.c.o  -o cmTC_0e3eb 
+Building C object CMakeFiles/cmTC_325fd.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_325fd.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_325fd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_325fd.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTC_325fd.dir/CMakeCCompilerABI.c.o  -o cmTC_325fd 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper
@@ -59,9 +59,9 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0e3eb' '-mlittle-endian' '-mabi=lp64'
- /usr/lib/gcc/aarch64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccX7s12N.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_0e3eb /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/7 -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/7/../../.. CMakeFiles/cmTC_0e3eb.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0e3eb' '-mlittle-endian' '-mabi=lp64'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_325fd' '-mlittle-endian' '-mabi=lp64'
+ /usr/lib/gcc/aarch64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc9ezW0w.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_325fd /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/7 -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/7/../../.. CMakeFiles/cmTC_325fd.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_325fd' '-mlittle-endian' '-mabi=lp64'
 make[1]: Leaving directory '/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp'
 
 
@@ -69,14 +69,14 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_0e3eb/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_0e3eb.dir/build.make CMakeFiles/cmTC_0e3eb.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_325fd/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_325fd.dir/build.make CMakeFiles/cmTC_325fd.dir/build]
   ignore line: [make[1]: Entering directory '/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_0e3eb.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_0e3eb.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_0e3eb]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e3eb.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_0e3eb.dir/CMakeCCompilerABI.c.o  -o cmTC_0e3eb ]
+  ignore line: [Building C object CMakeFiles/cmTC_325fd.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_325fd.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_325fd]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_325fd.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_325fd.dir/CMakeCCompilerABI.c.o  -o cmTC_325fd ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper]
@@ -86,13 +86,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0e3eb' '-mlittle-endian' '-mabi=lp64']
-  link line: [ /usr/lib/gcc/aarch64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccX7s12N.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_0e3eb /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/7 -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/7/../../.. CMakeFiles/cmTC_0e3eb.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_325fd' '-mlittle-endian' '-mabi=lp64']
+  link line: [ /usr/lib/gcc/aarch64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc9ezW0w.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_325fd /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/7 -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/7/../../.. CMakeFiles/cmTC_325fd.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/aarch64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccX7s12N.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc9ezW0w.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -112,7 +112,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_0e3eb] ==> ignore
+    arg [cmTC_325fd] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -124,7 +124,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/aarch64-linux-gnu] ==> dir [/usr/lib/aarch64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/aarch64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_0e3eb.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_325fd.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -156,14 +156,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_70020/fast"
-/usr/bin/make -f CMakeFiles/cmTC_70020.dir/build.make CMakeFiles/cmTC_70020.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_7070c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7070c.dir/build.make CMakeFiles/cmTC_7070c.dir/build
 make[1]: Entering directory '/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_70020.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_70020.dir/feature_tests.c.o   -c /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_70020
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70020.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_70020.dir/feature_tests.c.o  -o cmTC_70020 
+Building C object CMakeFiles/cmTC_7070c.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_7070c.dir/feature_tests.c.o   -c /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_7070c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7070c.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_7070c.dir/feature_tests.c.o  -o cmTC_7070c 
 make[1]: Leaving directory '/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp'
 
 
@@ -176,14 +176,14 @@ make[1]: Leaving directory '/home/jetson/Desktop/person_detection/pedestrian_det
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_00b93/fast"
-/usr/bin/make -f CMakeFiles/cmTC_00b93.dir/build.make CMakeFiles/cmTC_00b93.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_1de04/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1de04.dir/build.make CMakeFiles/cmTC_1de04.dir/build
 make[1]: Entering directory '/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_00b93.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_00b93.dir/feature_tests.c.o   -c /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_00b93
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00b93.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_00b93.dir/feature_tests.c.o  -o cmTC_00b93 
+Building C object CMakeFiles/cmTC_1de04.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_1de04.dir/feature_tests.c.o   -c /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_1de04
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1de04.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_1de04.dir/feature_tests.c.o  -o cmTC_1de04 
 make[1]: Leaving directory '/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp'
 
 
@@ -196,14 +196,14 @@ make[1]: Leaving directory '/home/jetson/Desktop/person_detection/pedestrian_det
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a571f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a571f.dir/build.make CMakeFiles/cmTC_a571f.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_9cdca/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9cdca.dir/build.make CMakeFiles/cmTC_9cdca.dir/build
 make[1]: Entering directory '/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a571f.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_a571f.dir/feature_tests.c.o   -c /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_a571f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a571f.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_a571f.dir/feature_tests.c.o  -o cmTC_a571f 
+Building C object CMakeFiles/cmTC_9cdca.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_9cdca.dir/feature_tests.c.o   -c /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_9cdca
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9cdca.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_9cdca.dir/feature_tests.c.o  -o cmTC_9cdca 
 make[1]: Leaving directory '/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp'
 
 
@@ -214,28 +214,28 @@ make[1]: Leaving directory '/home/jetson/Desktop/person_detection/pedestrian_det
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ab6d2/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ab6d2.dir/build.make CMakeFiles/cmTC_ab6d2.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_675bb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_675bb.dir/build.make CMakeFiles/cmTC_675bb.dir/build
 make[1]: Entering directory '/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_ab6d2.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_ab6d2.dir/testCXXCompiler.cxx.o -c /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_ab6d2
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ab6d2.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_ab6d2.dir/testCXXCompiler.cxx.o  -o cmTC_ab6d2 
+Building CXX object CMakeFiles/cmTC_675bb.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_675bb.dir/testCXXCompiler.cxx.o -c /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_675bb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_675bb.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_675bb.dir/testCXXCompiler.cxx.o  -o cmTC_675bb 
 make[1]: Leaving directory '/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b11a0/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b11a0.dir/build.make CMakeFiles/cmTC_b11a0.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_37181/fast"
+/usr/bin/make -f CMakeFiles/cmTC_37181.dir/build.make CMakeFiles/cmTC_37181.dir/build
 make[1]: Entering directory '/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_b11a0.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_b11a0.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_b11a0
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b11a0.dir/link.txt --verbose=1
-/usr/bin/c++      -v CMakeFiles/cmTC_b11a0.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_b11a0 
+Building CXX object CMakeFiles/cmTC_37181.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_37181.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_37181
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_37181.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTC_37181.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_37181 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper
@@ -245,9 +245,9 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b11a0' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
- /usr/lib/gcc/aarch64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccpLnGk4.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_b11a0 /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/7 -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/7/../../.. CMakeFiles/cmTC_b11a0.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b11a0' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_37181' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+ /usr/lib/gcc/aarch64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccbVb3XN.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_37181 /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/7 -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/7/../../.. CMakeFiles/cmTC_37181.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_37181' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
 make[1]: Leaving directory '/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp'
 
 
@@ -255,14 +255,14 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_b11a0/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_b11a0.dir/build.make CMakeFiles/cmTC_b11a0.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_37181/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_37181.dir/build.make CMakeFiles/cmTC_37181.dir/build]
   ignore line: [make[1]: Entering directory '/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_b11a0.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_b11a0.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_b11a0]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b11a0.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_b11a0.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_b11a0 ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_37181.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_37181.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_37181]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_37181.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_37181.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_37181 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper]
@@ -272,13 +272,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b11a0' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
-  link line: [ /usr/lib/gcc/aarch64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccpLnGk4.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_b11a0 /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/7 -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/7/../../.. CMakeFiles/cmTC_b11a0.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_37181' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
+  link line: [ /usr/lib/gcc/aarch64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccbVb3XN.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_37181 /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/7 -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/7/../../.. CMakeFiles/cmTC_37181.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/aarch64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccpLnGk4.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccbVb3XN.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -298,7 +298,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_b11a0] ==> ignore
+    arg [cmTC_37181] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -310,7 +310,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/aarch64-linux-gnu] ==> dir [/usr/lib/aarch64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/aarch64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_b11a0.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_37181.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -338,14 +338,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
 Change Dir: /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9cf54/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9cf54.dir/build.make CMakeFiles/cmTC_9cf54.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_006fc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_006fc.dir/build.make CMakeFiles/cmTC_006fc.dir/build
 make[1]: Entering directory '/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_9cf54.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_9cf54.dir/feature_tests.cxx.o -c /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_9cf54
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9cf54.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_9cf54.dir/feature_tests.cxx.o  -o cmTC_9cf54 
+Building CXX object CMakeFiles/cmTC_006fc.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_006fc.dir/feature_tests.cxx.o -c /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_006fc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_006fc.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_006fc.dir/feature_tests.cxx.o  -o cmTC_006fc 
 make[1]: Leaving directory '/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp'
 
 
@@ -411,14 +411,14 @@ make[1]: Leaving directory '/home/jetson/Desktop/person_detection/pedestrian_det
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_956fd/fast"
-/usr/bin/make -f CMakeFiles/cmTC_956fd.dir/build.make CMakeFiles/cmTC_956fd.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_fc73f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fc73f.dir/build.make CMakeFiles/cmTC_fc73f.dir/build
 make[1]: Entering directory '/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_956fd.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_956fd.dir/feature_tests.cxx.o -c /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_956fd
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_956fd.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_956fd.dir/feature_tests.cxx.o  -o cmTC_956fd 
+Building CXX object CMakeFiles/cmTC_fc73f.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_fc73f.dir/feature_tests.cxx.o -c /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_fc73f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc73f.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_fc73f.dir/feature_tests.cxx.o  -o cmTC_fc73f 
 make[1]: Leaving directory '/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp'
 
 
@@ -484,14 +484,14 @@ make[1]: Leaving directory '/home/jetson/Desktop/person_detection/pedestrian_det
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_44391/fast"
-/usr/bin/make -f CMakeFiles/cmTC_44391.dir/build.make CMakeFiles/cmTC_44391.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_62b9f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_62b9f.dir/build.make CMakeFiles/cmTC_62b9f.dir/build
 make[1]: Entering directory '/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_44391.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_44391.dir/feature_tests.cxx.o -c /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_44391
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44391.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_44391.dir/feature_tests.cxx.o  -o cmTC_44391 
+Building CXX object CMakeFiles/cmTC_62b9f.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_62b9f.dir/feature_tests.cxx.o -c /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_62b9f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62b9f.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_62b9f.dir/feature_tests.cxx.o  -o cmTC_62b9f 
 make[1]: Leaving directory '/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp'
 
 
@@ -557,14 +557,14 @@ make[1]: Leaving directory '/home/jetson/Desktop/person_detection/pedestrian_det
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2c56a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_2c56a.dir/build.make CMakeFiles/cmTC_2c56a.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_d14cc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d14cc.dir/build.make CMakeFiles/cmTC_d14cc.dir/build
 make[1]: Entering directory '/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_2c56a.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_2c56a.dir/feature_tests.cxx.o -c /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_2c56a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c56a.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_2c56a.dir/feature_tests.cxx.o  -o cmTC_2c56a 
+Building CXX object CMakeFiles/cmTC_d14cc.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_d14cc.dir/feature_tests.cxx.o -c /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_d14cc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d14cc.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_d14cc.dir/feature_tests.cxx.o  -o cmTC_d14cc 
 make[1]: Leaving directory '/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp'
 
 
@@ -628,14 +628,14 @@ make[1]: Leaving directory '/home/jetson/Desktop/person_detection/pedestrian_det
 Performing C++ SOURCE FILE Test NCNN_COMPILER_SUPPORT_ARM82_FP16 succeeded with the following output:
 Change Dir: /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_6c5ca/fast"
-/usr/bin/make -f CMakeFiles/cmTC_6c5ca.dir/build.make CMakeFiles/cmTC_6c5ca.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_77c10/fast"
+/usr/bin/make -f CMakeFiles/cmTC_77c10.dir/build.make CMakeFiles/cmTC_77c10.dir/build
 make[1]: Entering directory '/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_6c5ca.dir/src.cxx.o
-/usr/bin/c++    -DNCNN_COMPILER_SUPPORT_ARM82_FP16   -march=armv8.2-a+fp16 -o CMakeFiles/cmTC_6c5ca.dir/src.cxx.o -c /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_6c5ca
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6c5ca.dir/link.txt --verbose=1
-/usr/bin/c++   -DNCNN_COMPILER_SUPPORT_ARM82_FP16    -rdynamic CMakeFiles/cmTC_6c5ca.dir/src.cxx.o  -o cmTC_6c5ca 
+Building CXX object CMakeFiles/cmTC_77c10.dir/src.cxx.o
+/usr/bin/c++    -DNCNN_COMPILER_SUPPORT_ARM82_FP16   -march=armv8.2-a+fp16 -o CMakeFiles/cmTC_77c10.dir/src.cxx.o -c /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_77c10
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77c10.dir/link.txt --verbose=1
+/usr/bin/c++   -DNCNN_COMPILER_SUPPORT_ARM82_FP16    -rdynamic CMakeFiles/cmTC_77c10.dir/src.cxx.o  -o cmTC_77c10 
 make[1]: Leaving directory '/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp'
 
 Source file was:
@@ -643,43 +643,29 @@ int main() { return 0; }
 Performing C++ SOURCE FILE Test NCNN_COMPILER_SUPPORT_ARM82_FP16_DOTPROD succeeded with the following output:
 Change Dir: /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a30af/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a30af.dir/build.make CMakeFiles/cmTC_a30af.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_8ab74/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8ab74.dir/build.make CMakeFiles/cmTC_8ab74.dir/build
 make[1]: Entering directory '/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_a30af.dir/src.cxx.o
-/usr/bin/c++    -DNCNN_COMPILER_SUPPORT_ARM82_FP16_DOTPROD   -march=armv8.2-a+fp16+dotprod -o CMakeFiles/cmTC_a30af.dir/src.cxx.o -c /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_a30af
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a30af.dir/link.txt --verbose=1
-/usr/bin/c++   -DNCNN_COMPILER_SUPPORT_ARM82_FP16_DOTPROD    -rdynamic CMakeFiles/cmTC_a30af.dir/src.cxx.o  -o cmTC_a30af 
+Building CXX object CMakeFiles/cmTC_8ab74.dir/src.cxx.o
+/usr/bin/c++    -DNCNN_COMPILER_SUPPORT_ARM82_FP16_DOTPROD   -march=armv8.2-a+fp16+dotprod -o CMakeFiles/cmTC_8ab74.dir/src.cxx.o -c /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_8ab74
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ab74.dir/link.txt --verbose=1
+/usr/bin/c++   -DNCNN_COMPILER_SUPPORT_ARM82_FP16_DOTPROD    -rdynamic CMakeFiles/cmTC_8ab74.dir/src.cxx.o  -o cmTC_8ab74 
 make[1]: Leaving directory '/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp'
 
 Source file was:
 int main() { return 0; }
-Determining if the include file pthread.h exists passed with the following output:
-Change Dir: /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_92cf8/fast"
-/usr/bin/make -f CMakeFiles/cmTC_92cf8.dir/build.make CMakeFiles/cmTC_92cf8.dir/build
-make[1]: Entering directory '/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_92cf8.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_92cf8.dir/CheckIncludeFile.c.o   -c /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_92cf8
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_92cf8.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_92cf8.dir/CheckIncludeFile.c.o  -o cmTC_92cf8 
-make[1]: Leaving directory '/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp'
-
-
 Performing C++ SOURCE FILE Test COMPILER_HAS_HIDDEN_VISIBILITY succeeded with the following output:
 Change Dir: /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9fcdb/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9fcdb.dir/build.make CMakeFiles/cmTC_9fcdb.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_a59bd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a59bd.dir/build.make CMakeFiles/cmTC_a59bd.dir/build
 make[1]: Entering directory '/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_9fcdb.dir/src.cxx.o
-/usr/bin/c++    -DCOMPILER_HAS_HIDDEN_VISIBILITY   -fvisibility=hidden -o CMakeFiles/cmTC_9fcdb.dir/src.cxx.o -c /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_9fcdb
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9fcdb.dir/link.txt --verbose=1
-/usr/bin/c++   -DCOMPILER_HAS_HIDDEN_VISIBILITY    -rdynamic CMakeFiles/cmTC_9fcdb.dir/src.cxx.o  -o cmTC_9fcdb 
+Building CXX object CMakeFiles/cmTC_a59bd.dir/src.cxx.o
+/usr/bin/c++    -DCOMPILER_HAS_HIDDEN_VISIBILITY   -fvisibility=hidden -o CMakeFiles/cmTC_a59bd.dir/src.cxx.o -c /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_a59bd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a59bd.dir/link.txt --verbose=1
+/usr/bin/c++   -DCOMPILER_HAS_HIDDEN_VISIBILITY    -rdynamic CMakeFiles/cmTC_a59bd.dir/src.cxx.o  -o cmTC_a59bd 
 make[1]: Leaving directory '/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp'
 
 Source file was:
@@ -687,14 +673,14 @@ int main() { return 0; }
 Performing C++ SOURCE FILE Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY succeeded with the following output:
 Change Dir: /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b6ffd/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b6ffd.dir/build.make CMakeFiles/cmTC_b6ffd.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_03644/fast"
+/usr/bin/make -f CMakeFiles/cmTC_03644.dir/build.make CMakeFiles/cmTC_03644.dir/build
 make[1]: Entering directory '/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_b6ffd.dir/src.cxx.o
-/usr/bin/c++    -DCOMPILER_HAS_HIDDEN_INLINE_VISIBILITY   -fvisibility-inlines-hidden -o CMakeFiles/cmTC_b6ffd.dir/src.cxx.o -c /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_b6ffd
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6ffd.dir/link.txt --verbose=1
-/usr/bin/c++   -DCOMPILER_HAS_HIDDEN_INLINE_VISIBILITY    -rdynamic CMakeFiles/cmTC_b6ffd.dir/src.cxx.o  -o cmTC_b6ffd 
+Building CXX object CMakeFiles/cmTC_03644.dir/src.cxx.o
+/usr/bin/c++    -DCOMPILER_HAS_HIDDEN_INLINE_VISIBILITY   -fvisibility-inlines-hidden -o CMakeFiles/cmTC_03644.dir/src.cxx.o -c /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_03644
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_03644.dir/link.txt --verbose=1
+/usr/bin/c++   -DCOMPILER_HAS_HIDDEN_INLINE_VISIBILITY    -rdynamic CMakeFiles/cmTC_03644.dir/src.cxx.o  -o cmTC_03644 
 make[1]: Leaving directory '/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp'
 
 Source file was:
@@ -702,11 +688,11 @@ int main() { return 0; }
 Performing C++ SOURCE FILE Test COMPILER_HAS_DEPRECATED_ATTR succeeded with the following output:
 Change Dir: /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1fb5a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_1fb5a.dir/build.make CMakeFiles/cmTC_1fb5a.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_2b567/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2b567.dir/build.make CMakeFiles/cmTC_2b567.dir/build
 make[1]: Entering directory '/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_1fb5a.dir/src.cxx.o
-/usr/bin/c++    -DCOMPILER_HAS_DEPRECATED_ATTR   -o CMakeFiles/cmTC_1fb5a.dir/src.cxx.o -c /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp/src.cxx
+Building CXX object CMakeFiles/cmTC_2b567.dir/src.cxx.o
+/usr/bin/c++    -DCOMPILER_HAS_DEPRECATED_ATTR   -o CMakeFiles/cmTC_2b567.dir/src.cxx.o -c /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp/src.cxx
 /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
 /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp/src.cxx:2:34: warning: ‘int somefunc()’ is deprecated [-Wdeprecated-declarations]
      int main() { return somefunc();}
@@ -714,9 +700,9 @@ Building CXX object CMakeFiles/cmTC_1fb5a.dir/src.cxx.o
 /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp/src.cxx:1:37: note: declared here
  __attribute__((__deprecated__)) int somefunc() { return 0; }
                                      ^~~~~~~~
-Linking CXX executable cmTC_1fb5a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1fb5a.dir/link.txt --verbose=1
-/usr/bin/c++   -DCOMPILER_HAS_DEPRECATED_ATTR    -rdynamic CMakeFiles/cmTC_1fb5a.dir/src.cxx.o  -o cmTC_1fb5a 
+Linking CXX executable cmTC_2b567
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b567.dir/link.txt --verbose=1
+/usr/bin/c++   -DCOMPILER_HAS_DEPRECATED_ATTR    -rdynamic CMakeFiles/cmTC_2b567.dir/src.cxx.o  -o cmTC_2b567 
 make[1]: Leaving directory '/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp'
 
 Source file was:
@@ -725,19 +711,19 @@ __attribute__((__deprecated__)) int somefunc() { return 0; }
 Detecting C OpenMP compiler ABI info compiled with the following output:
 Change Dir: /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e5e23/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e5e23.dir/build.make CMakeFiles/cmTC_e5e23.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_387ec/fast"
+/usr/bin/make -f CMakeFiles/cmTC_387ec.dir/build.make CMakeFiles/cmTC_387ec.dir/build
 make[1]: Entering directory '/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e5e23.dir/OpenMPTryFlag.c.o
-/usr/bin/cc   -fopenmp -v   -o CMakeFiles/cmTC_e5e23.dir/OpenMPTryFlag.c.o   -c /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Building C object CMakeFiles/cmTC_387ec.dir/OpenMPTryFlag.c.o
+/usr/bin/cc   -fopenmp -v   -o CMakeFiles/cmTC_387ec.dir/OpenMPTryFlag.c.o   -c /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 Target: aarch64-linux-gnu
 Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu
 Thread model: posix
 gcc version 7.5.0 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) 
-COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_e5e23.dir/OpenMPTryFlag.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-pthread'
- /usr/lib/gcc/aarch64-linux-gnu/7/cc1 -quiet -v -imultiarch aarch64-linux-gnu -D_REENTRANT /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -quiet -dumpbase OpenMPTryFlag.c -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_e5e23.dir/OpenMPTryFlag.c.o -version -fopenmp -fstack-protector-strong -Wformat -Wformat-security -o /tmp/cc8EcSHU.s
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_387ec.dir/OpenMPTryFlag.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-pthread'
+ /usr/lib/gcc/aarch64-linux-gnu/7/cc1 -quiet -v -imultiarch aarch64-linux-gnu -D_REENTRANT /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -quiet -dumpbase OpenMPTryFlag.c -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_387ec.dir/OpenMPTryFlag.c.o -version -fopenmp -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccl0lePV.s
 GNU C11 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) version 7.5.0 (aarch64-linux-gnu)
 	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
 
@@ -757,15 +743,15 @@ GNU C11 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) version 7.5.0 (aarch64-linux-gnu)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: c19fc5c64e59a2c8da3d8cc8208e4481
-COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_e5e23.dir/OpenMPTryFlag.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-pthread'
- as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_e5e23.dir/OpenMPTryFlag.c.o /tmp/cc8EcSHU.s
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_387ec.dir/OpenMPTryFlag.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-pthread'
+ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_387ec.dir/OpenMPTryFlag.c.o /tmp/ccl0lePV.s
 GNU assembler version 2.30 (aarch64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30
 COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_e5e23.dir/OpenMPTryFlag.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-pthread'
-Linking C executable cmTC_e5e23
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e5e23.dir/link.txt --verbose=1
-/usr/bin/cc  -fopenmp -v    -rdynamic CMakeFiles/cmTC_e5e23.dir/OpenMPTryFlag.c.o  -o cmTC_e5e23 -v 
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_387ec.dir/OpenMPTryFlag.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-pthread'
+Linking C executable cmTC_387ec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_387ec.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -v    -rdynamic CMakeFiles/cmTC_387ec.dir/OpenMPTryFlag.c.o  -o cmTC_387ec -v 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper
@@ -776,9 +762,9 @@ gcc version 7.5.0 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04)
 COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../:/lib/:/usr/lib/
 Reading specs from /usr/lib/gcc/aarch64-linux-gnu/7/libgomp.spec
-COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-rdynamic' '-o' 'cmTC_e5e23' '-v' '-mlittle-endian' '-mabi=lp64' '-pthread'
- /usr/lib/gcc/aarch64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cckk3gp1.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_e5e23 /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/7 -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/7/../../.. CMakeFiles/cmTC_e5e23.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-rdynamic' '-o' 'cmTC_e5e23' '-v' '-mlittle-endian' '-mabi=lp64' '-pthread'
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-rdynamic' '-o' 'cmTC_387ec' '-v' '-mlittle-endian' '-mabi=lp64' '-pthread'
+ /usr/lib/gcc/aarch64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccR3fxm6.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_387ec /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/7 -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/7/../../.. CMakeFiles/cmTC_387ec.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-rdynamic' '-o' 'cmTC_387ec' '-v' '-mlittle-endian' '-mabi=lp64' '-pthread'
 make[1]: Leaving directory '/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp'
 
 
@@ -786,19 +772,19 @@ Parsed C OpenMP implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_e5e23/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_e5e23.dir/build.make CMakeFiles/cmTC_e5e23.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_387ec/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_387ec.dir/build.make CMakeFiles/cmTC_387ec.dir/build]
   ignore line: [make[1]: Entering directory '/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_e5e23.dir/OpenMPTryFlag.c.o]
-  ignore line: [/usr/bin/cc   -fopenmp -v   -o CMakeFiles/cmTC_e5e23.dir/OpenMPTryFlag.c.o   -c /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c]
+  ignore line: [Building C object CMakeFiles/cmTC_387ec.dir/OpenMPTryFlag.c.o]
+  ignore line: [/usr/bin/cc   -fopenmp -v   -o CMakeFiles/cmTC_387ec.dir/OpenMPTryFlag.c.o   -c /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [Target: aarch64-linux-gnu]
   ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu]
   ignore line: [Thread model: posix]
   ignore line: [gcc version 7.5.0 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_e5e23.dir/OpenMPTryFlag.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-pthread']
-  ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/7/cc1 -quiet -v -imultiarch aarch64-linux-gnu -D_REENTRANT /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -quiet -dumpbase OpenMPTryFlag.c -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_e5e23.dir/OpenMPTryFlag.c.o -version -fopenmp -fstack-protector-strong -Wformat -Wformat-security -o /tmp/cc8EcSHU.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_387ec.dir/OpenMPTryFlag.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-pthread']
+  ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/7/cc1 -quiet -v -imultiarch aarch64-linux-gnu -D_REENTRANT /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -quiet -dumpbase OpenMPTryFlag.c -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_387ec.dir/OpenMPTryFlag.c.o -version -fopenmp -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccl0lePV.s]
   ignore line: [GNU C11 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) version 7.5.0 (aarch64-linux-gnu)]
   ignore line: [	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP]
   ignore line: []
@@ -818,15 +804,15 @@ Parsed C OpenMP implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: c19fc5c64e59a2c8da3d8cc8208e4481]
-  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_e5e23.dir/OpenMPTryFlag.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-pthread']
-  ignore line: [ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_e5e23.dir/OpenMPTryFlag.c.o /tmp/cc8EcSHU.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_387ec.dir/OpenMPTryFlag.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-pthread']
+  ignore line: [ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_387ec.dir/OpenMPTryFlag.c.o /tmp/ccl0lePV.s]
   ignore line: [GNU assembler version 2.30 (aarch64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_e5e23.dir/OpenMPTryFlag.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-pthread']
-  ignore line: [Linking C executable cmTC_e5e23]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e5e23.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc  -fopenmp -v    -rdynamic CMakeFiles/cmTC_e5e23.dir/OpenMPTryFlag.c.o  -o cmTC_e5e23 -v ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_387ec.dir/OpenMPTryFlag.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-pthread']
+  ignore line: [Linking C executable cmTC_387ec]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_387ec.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -fopenmp -v    -rdynamic CMakeFiles/cmTC_387ec.dir/OpenMPTryFlag.c.o  -o cmTC_387ec -v ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper]
@@ -837,13 +823,13 @@ Parsed C OpenMP implicit link information from above output:
   ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../:/lib/:/usr/lib/]
   ignore line: [Reading specs from /usr/lib/gcc/aarch64-linux-gnu/7/libgomp.spec]
-  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-rdynamic' '-o' 'cmTC_e5e23' '-v' '-mlittle-endian' '-mabi=lp64' '-pthread']
-  link line: [ /usr/lib/gcc/aarch64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cckk3gp1.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_e5e23 /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/7 -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/7/../../.. CMakeFiles/cmTC_e5e23.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-rdynamic' '-o' 'cmTC_387ec' '-v' '-mlittle-endian' '-mabi=lp64' '-pthread']
+  link line: [ /usr/lib/gcc/aarch64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccR3fxm6.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_387ec /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/7 -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/7/../../.. CMakeFiles/cmTC_387ec.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/aarch64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cckk3gp1.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccR3fxm6.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
@@ -865,7 +851,7 @@ Parsed C OpenMP implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_e5e23] ==> ignore
+    arg [cmTC_387ec] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -877,7 +863,7 @@ Parsed C OpenMP implicit link information from above output:
     arg [-L/usr/lib/aarch64-linux-gnu] ==> dir [/usr/lib/aarch64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/aarch64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_e5e23.dir/OpenMPTryFlag.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_387ec.dir/OpenMPTryFlag.c.o] ==> ignore
     arg [-lgomp] ==> lib [gomp]
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
@@ -909,19 +895,19 @@ Parsed C OpenMP implicit link information from above output:
 Detecting CXX OpenMP compiler ABI info compiled with the following output:
 Change Dir: /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_dfbe0/fast"
-/usr/bin/make -f CMakeFiles/cmTC_dfbe0.dir/build.make CMakeFiles/cmTC_dfbe0.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_f34ba/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f34ba.dir/build.make CMakeFiles/cmTC_f34ba.dir/build
 make[1]: Entering directory '/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_dfbe0.dir/OpenMPTryFlag.cpp.o
-/usr/bin/c++    -fopenmp -v   -o CMakeFiles/cmTC_dfbe0.dir/OpenMPTryFlag.cpp.o -c /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Building CXX object CMakeFiles/cmTC_f34ba.dir/OpenMPTryFlag.cpp.o
+/usr/bin/c++    -fopenmp -v   -o CMakeFiles/cmTC_f34ba.dir/OpenMPTryFlag.cpp.o -c /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 Target: aarch64-linux-gnu
 Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu
 Thread model: posix
 gcc version 7.5.0 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) 
-COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_dfbe0.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread'
- /usr/lib/gcc/aarch64-linux-gnu/7/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -D_GNU_SOURCE -D_REENTRANT /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpbase OpenMPTryFlag.cpp -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_dfbe0.dir/OpenMPTryFlag.cpp.o -version -fopenmp -fstack-protector-strong -Wformat -Wformat-security -o /tmp/cczjXeUf.s
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_f34ba.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread'
+ /usr/lib/gcc/aarch64-linux-gnu/7/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -D_GNU_SOURCE -D_REENTRANT /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpbase OpenMPTryFlag.cpp -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_f34ba.dir/OpenMPTryFlag.cpp.o -version -fopenmp -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccCMMXEk.s
 GNU C++14 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) version 7.5.0 (aarch64-linux-gnu)
 	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
 
@@ -945,15 +931,15 @@ GNU C++14 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) version 7.5.0 (aarch64-linux-gnu)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 267235b6617dadf512d9def64c54895c
-COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_dfbe0.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread'
- as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_dfbe0.dir/OpenMPTryFlag.cpp.o /tmp/cczjXeUf.s
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_f34ba.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread'
+ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_f34ba.dir/OpenMPTryFlag.cpp.o /tmp/ccCMMXEk.s
 GNU assembler version 2.30 (aarch64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30
 COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_dfbe0.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread'
-Linking CXX executable cmTC_dfbe0
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dfbe0.dir/link.txt --verbose=1
-/usr/bin/c++   -fopenmp -v    -rdynamic CMakeFiles/cmTC_dfbe0.dir/OpenMPTryFlag.cpp.o  -o cmTC_dfbe0 -v 
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_f34ba.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread'
+Linking CXX executable cmTC_f34ba
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f34ba.dir/link.txt --verbose=1
+/usr/bin/c++   -fopenmp -v    -rdynamic CMakeFiles/cmTC_f34ba.dir/OpenMPTryFlag.cpp.o  -o cmTC_f34ba -v 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper
@@ -964,9 +950,9 @@ gcc version 7.5.0 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04)
 COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../:/lib/:/usr/lib/
 Reading specs from /usr/lib/gcc/aarch64-linux-gnu/7/libgomp.spec
-COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-rdynamic' '-o' 'cmTC_dfbe0' '-v' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread'
- /usr/lib/gcc/aarch64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccmFvZHa.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_dfbe0 /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/7 -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/7/../../.. CMakeFiles/cmTC_dfbe0.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-rdynamic' '-o' 'cmTC_dfbe0' '-v' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread'
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-rdynamic' '-o' 'cmTC_f34ba' '-v' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread'
+ /usr/lib/gcc/aarch64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccN6Opbj.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_f34ba /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/7 -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/7/../../.. CMakeFiles/cmTC_f34ba.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-rdynamic' '-o' 'cmTC_f34ba' '-v' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread'
 make[1]: Leaving directory '/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp'
 
 
@@ -974,19 +960,19 @@ Parsed CXX OpenMP implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_dfbe0/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_dfbe0.dir/build.make CMakeFiles/cmTC_dfbe0.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_f34ba/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_f34ba.dir/build.make CMakeFiles/cmTC_f34ba.dir/build]
   ignore line: [make[1]: Entering directory '/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_dfbe0.dir/OpenMPTryFlag.cpp.o]
-  ignore line: [/usr/bin/c++    -fopenmp -v   -o CMakeFiles/cmTC_dfbe0.dir/OpenMPTryFlag.cpp.o -c /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp]
+  ignore line: [Building CXX object CMakeFiles/cmTC_f34ba.dir/OpenMPTryFlag.cpp.o]
+  ignore line: [/usr/bin/c++    -fopenmp -v   -o CMakeFiles/cmTC_f34ba.dir/OpenMPTryFlag.cpp.o -c /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [Target: aarch64-linux-gnu]
   ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu]
   ignore line: [Thread model: posix]
   ignore line: [gcc version 7.5.0 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_dfbe0.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread']
-  ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/7/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -D_GNU_SOURCE -D_REENTRANT /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpbase OpenMPTryFlag.cpp -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_dfbe0.dir/OpenMPTryFlag.cpp.o -version -fopenmp -fstack-protector-strong -Wformat -Wformat-security -o /tmp/cczjXeUf.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_f34ba.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread']
+  ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/7/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -D_GNU_SOURCE -D_REENTRANT /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpbase OpenMPTryFlag.cpp -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_f34ba.dir/OpenMPTryFlag.cpp.o -version -fopenmp -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccCMMXEk.s]
   ignore line: [GNU C++14 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) version 7.5.0 (aarch64-linux-gnu)]
   ignore line: [	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP]
   ignore line: []
@@ -1010,15 +996,15 @@ Parsed CXX OpenMP implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 267235b6617dadf512d9def64c54895c]
-  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_dfbe0.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread']
-  ignore line: [ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_dfbe0.dir/OpenMPTryFlag.cpp.o /tmp/cczjXeUf.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_f34ba.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread']
+  ignore line: [ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_f34ba.dir/OpenMPTryFlag.cpp.o /tmp/ccCMMXEk.s]
   ignore line: [GNU assembler version 2.30 (aarch64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_dfbe0.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread']
-  ignore line: [Linking CXX executable cmTC_dfbe0]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dfbe0.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++   -fopenmp -v    -rdynamic CMakeFiles/cmTC_dfbe0.dir/OpenMPTryFlag.cpp.o  -o cmTC_dfbe0 -v ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_f34ba.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread']
+  ignore line: [Linking CXX executable cmTC_f34ba]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f34ba.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++   -fopenmp -v    -rdynamic CMakeFiles/cmTC_f34ba.dir/OpenMPTryFlag.cpp.o  -o cmTC_f34ba -v ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper]
@@ -1029,13 +1015,13 @@ Parsed CXX OpenMP implicit link information from above output:
   ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../:/lib/:/usr/lib/]
   ignore line: [Reading specs from /usr/lib/gcc/aarch64-linux-gnu/7/libgomp.spec]
-  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-rdynamic' '-o' 'cmTC_dfbe0' '-v' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread']
-  link line: [ /usr/lib/gcc/aarch64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccmFvZHa.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_dfbe0 /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/7 -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/7/../../.. CMakeFiles/cmTC_dfbe0.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-rdynamic' '-o' 'cmTC_f34ba' '-v' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread']
+  link line: [ /usr/lib/gcc/aarch64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccN6Opbj.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_f34ba /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/7 -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/7/../../.. CMakeFiles/cmTC_f34ba.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/aarch64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccmFvZHa.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccN6Opbj.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
@@ -1057,7 +1043,7 @@ Parsed CXX OpenMP implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_dfbe0] ==> ignore
+    arg [cmTC_f34ba] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -1069,7 +1055,7 @@ Parsed CXX OpenMP implicit link information from above output:
     arg [-L/usr/lib/aarch64-linux-gnu] ==> dir [/usr/lib/aarch64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/aarch64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_dfbe0.dir/OpenMPTryFlag.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_f34ba.dir/OpenMPTryFlag.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgomp] ==> lib [gomp]
@@ -1092,5 +1078,19 @@ Parsed CXX OpenMP implicit link information from above output:
   implicit libs: [stdc++;m;gomp;gcc_s;gcc;pthread;c;gcc_s;gcc]
   implicit dirs: [/usr/lib/gcc/aarch64-linux-gnu/7;/usr/lib/aarch64-linux-gnu;/usr/lib;/lib/aarch64-linux-gnu;/lib]
   implicit fwks: []
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_126d5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_126d5.dir/build.make CMakeFiles/cmTC_126d5.dir/build
+make[1]: Entering directory '/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_126d5.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_126d5.dir/CheckIncludeFile.c.o   -c /home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_126d5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_126d5.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_126d5.dir/CheckIncludeFile.c.o  -o cmTC_126d5 
+make[1]: Leaving directory '/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/CMakeTmp'
 
 

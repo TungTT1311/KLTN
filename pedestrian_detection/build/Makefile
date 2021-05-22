@@ -624,6 +624,33 @@ ncnn2table/fast:
 	$(MAKE) -f ncnn_build/tools/quantize/CMakeFiles/ncnn2table.dir/build.make ncnn_build/tools/quantize/CMakeFiles/ncnn2table.dir/build
 .PHONY : ncnn2table/fast
 
+camera_tracking.o: camera_tracking.cpp.o
+
+.PHONY : camera_tracking.o
+
+# target to build an object file
+camera_tracking.cpp.o:
+	$(MAKE) -f CMakeFiles/detect.dir/build.make CMakeFiles/detect.dir/camera_tracking.cpp.o
+.PHONY : camera_tracking.cpp.o
+
+camera_tracking.i: camera_tracking.cpp.i
+
+.PHONY : camera_tracking.i
+
+# target to preprocess a source file
+camera_tracking.cpp.i:
+	$(MAKE) -f CMakeFiles/detect.dir/build.make CMakeFiles/detect.dir/camera_tracking.cpp.i
+.PHONY : camera_tracking.cpp.i
+
+camera_tracking.s: camera_tracking.cpp.s
+
+.PHONY : camera_tracking.s
+
+# target to generate assembly for a file
+camera_tracking.cpp.s:
+	$(MAKE) -f CMakeFiles/detect.dir/build.make CMakeFiles/detect.dir/camera_tracking.cpp.s
+.PHONY : camera_tracking.cpp.s
+
 object_detection.o: object_detection.cpp.o
 
 .PHONY : object_detection.o
@@ -650,6 +677,114 @@ object_detection.s: object_detection.cpp.s
 object_detection.cpp.s:
 	$(MAKE) -f CMakeFiles/detect.dir/build.make CMakeFiles/detect.dir/object_detection.cpp.s
 .PHONY : object_detection.cpp.s
+
+robot_move.o: robot_move.cpp.o
+
+.PHONY : robot_move.o
+
+# target to build an object file
+robot_move.cpp.o:
+	$(MAKE) -f CMakeFiles/detect.dir/build.make CMakeFiles/detect.dir/robot_move.cpp.o
+.PHONY : robot_move.cpp.o
+
+robot_move.i: robot_move.cpp.i
+
+.PHONY : robot_move.i
+
+# target to preprocess a source file
+robot_move.cpp.i:
+	$(MAKE) -f CMakeFiles/detect.dir/build.make CMakeFiles/detect.dir/robot_move.cpp.i
+.PHONY : robot_move.cpp.i
+
+robot_move.s: robot_move.cpp.s
+
+.PHONY : robot_move.s
+
+# target to generate assembly for a file
+robot_move.cpp.s:
+	$(MAKE) -f CMakeFiles/detect.dir/build.make CMakeFiles/detect.dir/robot_move.cpp.s
+.PHONY : robot_move.cpp.s
+
+src/anchor_creator.o: src/anchor_creator.cpp.o
+
+.PHONY : src/anchor_creator.o
+
+# target to build an object file
+src/anchor_creator.cpp.o:
+	$(MAKE) -f CMakeFiles/detect.dir/build.make CMakeFiles/detect.dir/src/anchor_creator.cpp.o
+.PHONY : src/anchor_creator.cpp.o
+
+src/anchor_creator.i: src/anchor_creator.cpp.i
+
+.PHONY : src/anchor_creator.i
+
+# target to preprocess a source file
+src/anchor_creator.cpp.i:
+	$(MAKE) -f CMakeFiles/detect.dir/build.make CMakeFiles/detect.dir/src/anchor_creator.cpp.i
+.PHONY : src/anchor_creator.cpp.i
+
+src/anchor_creator.s: src/anchor_creator.cpp.s
+
+.PHONY : src/anchor_creator.s
+
+# target to generate assembly for a file
+src/anchor_creator.cpp.s:
+	$(MAKE) -f CMakeFiles/detect.dir/build.make CMakeFiles/detect.dir/src/anchor_creator.cpp.s
+.PHONY : src/anchor_creator.cpp.s
+
+src/config.o: src/config.cpp.o
+
+.PHONY : src/config.o
+
+# target to build an object file
+src/config.cpp.o:
+	$(MAKE) -f CMakeFiles/detect.dir/build.make CMakeFiles/detect.dir/src/config.cpp.o
+.PHONY : src/config.cpp.o
+
+src/config.i: src/config.cpp.i
+
+.PHONY : src/config.i
+
+# target to preprocess a source file
+src/config.cpp.i:
+	$(MAKE) -f CMakeFiles/detect.dir/build.make CMakeFiles/detect.dir/src/config.cpp.i
+.PHONY : src/config.cpp.i
+
+src/config.s: src/config.cpp.s
+
+.PHONY : src/config.s
+
+# target to generate assembly for a file
+src/config.cpp.s:
+	$(MAKE) -f CMakeFiles/detect.dir/build.make CMakeFiles/detect.dir/src/config.cpp.s
+.PHONY : src/config.cpp.s
+
+src/utils.o: src/utils.cpp.o
+
+.PHONY : src/utils.o
+
+# target to build an object file
+src/utils.cpp.o:
+	$(MAKE) -f CMakeFiles/detect.dir/build.make CMakeFiles/detect.dir/src/utils.cpp.o
+.PHONY : src/utils.cpp.o
+
+src/utils.i: src/utils.cpp.i
+
+.PHONY : src/utils.i
+
+# target to preprocess a source file
+src/utils.cpp.i:
+	$(MAKE) -f CMakeFiles/detect.dir/build.make CMakeFiles/detect.dir/src/utils.cpp.i
+.PHONY : src/utils.cpp.i
+
+src/utils.s: src/utils.cpp.s
+
+.PHONY : src/utils.s
+
+# target to generate assembly for a file
+src/utils.cpp.s:
+	$(MAKE) -f CMakeFiles/detect.dir/build.make CMakeFiles/detect.dir/src/utils.cpp.s
+.PHONY : src/utils.cpp.s
 
 test.o: test.cpp.o
 
@@ -726,9 +861,24 @@ help:
 	@echo "... darknet2ncnn"
 	@echo "... ncnn2int8"
 	@echo "... ncnn2table"
+	@echo "... camera_tracking.o"
+	@echo "... camera_tracking.i"
+	@echo "... camera_tracking.s"
 	@echo "... object_detection.o"
 	@echo "... object_detection.i"
 	@echo "... object_detection.s"
+	@echo "... robot_move.o"
+	@echo "... robot_move.i"
+	@echo "... robot_move.s"
+	@echo "... src/anchor_creator.o"
+	@echo "... src/anchor_creator.i"
+	@echo "... src/anchor_creator.s"
+	@echo "... src/config.o"
+	@echo "... src/config.i"
+	@echo "... src/config.s"
+	@echo "... src/utils.o"
+	@echo "... src/utils.i"
+	@echo "... src/utils.s"
 	@echo "... test.o"
 	@echo "... test.i"
 	@echo "... test.s"
