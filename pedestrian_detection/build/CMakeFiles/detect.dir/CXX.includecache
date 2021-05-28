@@ -236,6 +236,56 @@ vector
 net.h
 /home/jetson/Desktop/person_detection/pedestrian_detection/src/net.h
 
+/home/jetson/Desktop/person_detection/pedestrian_detection/src/ffttools.hpp
+fftw3.h
+-
+
+/home/jetson/Desktop/person_detection/pedestrian_detection/src/fhog.cpp
+fhog.hpp
+/home/jetson/Desktop/person_detection/pedestrian_detection/src/fhog.hpp
+tbb/tbb.h
+-
+tbb/parallel_for.h
+/home/jetson/Desktop/person_detection/pedestrian_detection/src/tbb/parallel_for.h
+tbb/blocked_range.h
+/home/jetson/Desktop/person_detection/pedestrian_detection/src/tbb/blocked_range.h
+
+/home/jetson/Desktop/person_detection/pedestrian_detection/src/fhog.hpp
+stdio.h
+-
+opencv2/imgproc/imgproc_c.h
+/home/jetson/Desktop/person_detection/pedestrian_detection/src/opencv2/imgproc/imgproc_c.h
+float.h
+/home/jetson/Desktop/person_detection/pedestrian_detection/src/float.h
+
+/home/jetson/Desktop/person_detection/pedestrian_detection/src/kcftracker.cpp
+kcftracker.hpp
+/home/jetson/Desktop/person_detection/pedestrian_detection/src/kcftracker.hpp
+ffttools.hpp
+/home/jetson/Desktop/person_detection/pedestrian_detection/src/ffttools.hpp
+recttools.hpp
+/home/jetson/Desktop/person_detection/pedestrian_detection/src/recttools.hpp
+fhog.hpp
+/home/jetson/Desktop/person_detection/pedestrian_detection/src/fhog.hpp
+labdata.hpp
+/home/jetson/Desktop/person_detection/pedestrian_detection/src/labdata.hpp
+
+/home/jetson/Desktop/person_detection/pedestrian_detection/src/kcftracker.hpp
+tracker.h
+/home/jetson/Desktop/person_detection/pedestrian_detection/src/tracker.h
+
+/home/jetson/Desktop/person_detection/pedestrian_detection/src/labdata.hpp
+
+/home/jetson/Desktop/person_detection/pedestrian_detection/src/recttools.hpp
+math.h
+-
+
+/home/jetson/Desktop/person_detection/pedestrian_detection/src/tracker.h
+opencv2/opencv.hpp
+-
+string
+-
+
 /home/jetson/Desktop/person_detection/pedestrian_detection/src/utils.cpp
 utils.h
 /home/jetson/Desktop/person_detection/pedestrian_detection/src/utils.h
@@ -275,14 +325,10 @@ opencv2/face.hpp
 -
 math.h
 -
-dlib/image_processing.h
--
-dlib/dir_nav.h
--
-dlib/image_io.h
--
-dlib/opencv.h
--
+opencv2/features2d.hpp
+/home/jetson/Desktop/person_detection/pedestrian_detection/opencv2/features2d.hpp
+opencv2/xfeatures2d.hpp
+/home/jetson/Desktop/person_detection/pedestrian_detection/opencv2/xfeatures2d.hpp
 fstream
 -
 sstream
@@ -299,6 +345,10 @@ src/utils.h
 /home/jetson/Desktop/person_detection/pedestrian_detection/src/utils.h
 benchmark.h
 /home/jetson/Desktop/person_detection/pedestrian_detection/benchmark.h
+src/kcftracker.hpp
+/home/jetson/Desktop/person_detection/pedestrian_detection/src/kcftracker.hpp
+dirent.h
+-
 
 /usr/local/include/opencv4/opencv2/calib3d.hpp
 opencv2/core.hpp
@@ -371,6 +421,16 @@ opencv2/core/check.hpp
 /usr/local/include/opencv4/opencv2/core/check.hpp
 opencv2/core/base.hpp
 -
+
+/usr/local/include/opencv4/opencv2/core/core_c.h
+opencv2/core/types_c.h
+/usr/local/include/opencv4/opencv2/core/opencv2/core/types_c.h
+cxcore.h
+/usr/local/include/opencv4/opencv2/core/cxcore.h
+cxcore.h
+/usr/local/include/opencv4/opencv2/core/cxcore.h
+opencv2/core/utility.hpp
+/usr/local/include/opencv4/opencv2/core/opencv2/core/utility.hpp
 
 /usr/local/include/opencv4/opencv2/core/cuda.hpp
 opencv2/core.hpp
@@ -618,6 +678,24 @@ opencv2/core/cvstd.hpp
 opencv2/core/matx.hpp
 /usr/local/include/opencv4/opencv2/core/opencv2/core/matx.hpp
 
+/usr/local/include/opencv4/opencv2/core/types_c.h
+ipl.h
+-
+ipl/ipl.h
+-
+opencv2/core/cvdef.h
+/usr/local/include/opencv4/opencv2/core/opencv2/core/cvdef.h
+assert.h
+-
+stdlib.h
+-
+string.h
+-
+float.h
+-
+opencv2/core.hpp
+/usr/local/include/opencv4/opencv2/core/opencv2/core.hpp
+
 /usr/local/include/opencv4/opencv2/core/utility.hpp
 opencv2/core.hpp
 /usr/local/include/opencv4/opencv2/core/opencv2/core.hpp
@@ -824,6 +902,12 @@ lsh_index.h
 autotuned_index.h
 /usr/local/include/opencv4/opencv2/flann/autotuned_index.h
 
+/usr/local/include/opencv4/opencv2/flann/allocator.h
+stdlib.h
+-
+stdio.h
+-
+
 /usr/local/include/opencv4/opencv2/flann/any.h
 defines.h
 /usr/local/include/opencv4/opencv2/flann/defines.h
@@ -869,6 +953,8 @@ kdtree_index.h
 /usr/local/include/opencv4/opencv2/flann/kdtree_index.h
 kmeans_index.h
 /usr/local/include/opencv4/opencv2/flann/kmeans_index.h
+
+/usr/local/include/opencv4/opencv2/flann/config.h
 
 /usr/local/include/opencv4/opencv2/flann/defines.h
 config.h
@@ -1222,6 +1308,14 @@ opencv2/core.hpp
 opencv2/imgproc.hpp
 /usr/local/include/opencv4/opencv2/imgproc/opencv2/imgproc.hpp
 
+/usr/local/include/opencv4/opencv2/imgproc/imgproc_c.h
+opencv2/imgproc/types_c.h
+/usr/local/include/opencv4/opencv2/imgproc/opencv2/imgproc/types_c.h
+
+/usr/local/include/opencv4/opencv2/imgproc/types_c.h
+opencv2/core/core_c.h
+/usr/local/include/opencv4/opencv2/imgproc/opencv2/core/core_c.h
+
 /usr/local/include/opencv4/opencv2/ml.hpp
 opencv2/core.hpp
 /usr/local/include/opencv4/opencv2/opencv2/core.hpp
@@ -1413,6 +1507,16 @@ opencv2/imgproc.hpp
 /usr/local/include/opencv4/opencv2/videoio.hpp
 opencv2/core.hpp
 /usr/local/include/opencv4/opencv2/opencv2/core.hpp
+
+/usr/local/include/opencv4/opencv2/xfeatures2d.hpp
+opencv2/features2d.hpp
+/usr/local/include/opencv4/opencv2/opencv2/features2d.hpp
+opencv2/xfeatures2d/nonfree.hpp
+/usr/local/include/opencv4/opencv2/opencv2/xfeatures2d/nonfree.hpp
+
+/usr/local/include/opencv4/opencv2/xfeatures2d/nonfree.hpp
+opencv2/features2d.hpp
+/usr/local/include/opencv4/opencv2/xfeatures2d/opencv2/features2d.hpp
 
 ncnn_build/src/ncnn_export.h
 

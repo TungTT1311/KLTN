@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/detect.dir/robot_move.cpp.o"
   "CMakeFiles/detect.dir/src/anchor_creator.cpp.o"
   "CMakeFiles/detect.dir/src/config.cpp.o"
+  "CMakeFiles/detect.dir/src/fhog.cpp.o"
+  "CMakeFiles/detect.dir/src/kcftracker.cpp.o"
   "CMakeFiles/detect.dir/src/utils.cpp.o"
   "detect.pdb"
   "detect"

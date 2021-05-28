@@ -11,11 +11,9 @@
 #include <opencv2/objdetect/objdetect.hpp>
 #include <opencv2/face.hpp>
 #include <math.h>
-#include <dlib/image_processing.h>
-// #include <dlib/gui_widgets.h>
-#include <dlib/dir_nav.h>
-#include <dlib/image_io.h>
-#include <dlib/opencv.h>
+#include "opencv2/features2d.hpp"
+#include "opencv2/xfeatures2d.hpp"
+
 #include <fstream>
 #include <sstream>
 #include <chrono>
@@ -25,10 +23,26 @@
 #include "src/anchor_creator.h"
 #include "src/utils.h"
 #include "benchmark.h"
+// lib for tracker
+#include "src/kcftracker.hpp"
+#include <dirent.h>
 using namespace std;
 using namespace cv;
-using namespace dlib;
 using namespace cv::face;
+using namespace cv::xfeatures2d;
+// move
+#define MoveForward GPIO::LOW
+#define MoveBackward GPIO::HIGH
+
+#define MaxRight 100
+#define MaxLeft 95
+
+const int right_output_pwm_pin1 = 33; //pwm
+const int right_output_pin2 = 31; //
+
+
+const int left_output_pin_1 = 29; // 
+const int left_output_pwm_pin_2 = 32; // pwm
 // NEW
 
 //***************************funtion  face detect and recognize****************************//
@@ -210,21 +224,35 @@ int serial_port;
 
 cv::Rect2d r;
 
-cv::Point CalCenterObject(float x, float y, float width, float height)
+cv::Point CalCenterObject(cv::Rect r)
 {
   cv::Point point;
-  point.x = x + width/2;
-  point.y = y + height/2;
+  point.x = r.x + r.width/2;
+  point.y = r.y + r.height/2;
   return point;
 }
 
 int main( int argc, char** argv )
 {
   // Config to Camera tracking
-  // Open(serial_port);
-  // Config_SerialPort(serial_port); 
-  // LobotSerialServoMove(1, pan, 0, serial_port);
+  //Open(serial_port);
+  //Config_SerialPort(serial_port); 
+  //LobotSerialServoMove(1, pan, 0, serial_port);
+  //Move
 
+  GPIO::setwarnings(false);
+	// Pin Setup.
+	// Board pin-numbering scheme
+	GPIO::setmode(GPIO::BOARD);
+
+	// set pin as an output pin with optional initial state of HIGH
+	GPIO::setup(right_output_pwm_pin1, GPIO::OUT, GPIO::HIGH);
+	GPIO::setup(right_output_pin2, GPIO::OUT, MoveForward);
+	GPIO::PWM Right_pwm(right_output_pwm_pin1, 50);
+
+	GPIO::setup(left_output_pwm_pin_2, GPIO::OUT, GPIO::HIGH);
+	GPIO::setup(left_output_pin_1, GPIO::OUT, MoveForward);
+  GPIO::PWM Left_pwm(left_output_pwm_pin_2, 50);
   //-----------------------------DETECT FACE-------------------------------
   //face recognizer 
 
@@ -235,7 +263,7 @@ int main( int argc, char** argv )
   bool RUNFACE_DETECTION=true;
   int ret = 0;
 
-  cv::Mat img1 = cv::imread("../test_pic/774.jpg", 1);
+  cv::Mat img1 = cv::imread("../test_pic/336.jpg", 1);
   ret = init_retinaface(&retinaface, target_size);
   if(ret)
   {
@@ -263,33 +291,40 @@ int main( int argc, char** argv )
   
   auto m_StartTime = std::chrono::system_clock::now();
 
-  //correlation_tracker tracker(int filter_size = 6);
-
-  cv::Mat cimg;
-
   bool isInitTracking = false;
-  int startX, startY, endX, endY;
-  
-  Ptr<TrackerCSRT> tracker = TrackerCSRT::create();
+
+  //config tracker
+  bool HOG = true;
+	bool FIXEDWINDOW = false;
+	bool MULTISCALE = true;
+	bool LAB = false;
+  // Create KCFTracker object
+	KCFTracker tracker(HOG, FIXEDWINDOW, MULTISCALE, LAB);
 
   cv::Point center_face_detect;
   cv::Point center_person_detect;
   cv::Rect BoudBox_Target;
+  cv::Rect BoudBox_Tracking;
+  cv::Mat cropTarget_1;
 
-  // image_window win;
+  int nFrame = 0;
 
+  int frame_width = cap.get(cv::CAP_PROP_FRAME_WIDTH);
+  int frame_height = cap.get(cv::CAP_PROP_FRAME_HEIGHT);
+  // Define the codec and create VideoWriter object.The output is stored in 'outcpp.avi' file.
+  VideoWriter video("outcpp.avi", cv::VideoWriter::fourcc('M','J','P','G'), 10, Size(frame_width,frame_height));
   while(true)
   {
-    auto started = std::chrono::high_resolution_clock::now();
-    cap >> frame;
 
-    //cv_image<rgb_pixel> cimg(frame);
+    cap >> frame;
+    
+
 
     double fps = std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::system_clock::now() - m_StartTime).count();
     m_StartTime = std::chrono::system_clock::now();
     cv::putText(frame, to_string(static_cast<int>(1000/fps)) + " FPS", cv::Point(10, 30), cv::FONT_HERSHEY_DUPLEX, 1, cv::Scalar(0, 0, 255), 1, false);
     std::chrono::steady_clock::time_point t1 = std::chrono::steady_clock::now();
-    //out.write(frame);
+   
 
     //-----------------------------------Detect face -----------------------------
     
@@ -315,9 +350,10 @@ int main( int argc, char** argv )
                 cv::FONT_HERSHEY_SIMPLEX, 0.8, cv::Scalar(0, 255, 0), 2);
             
             // center_face_detect = CalCenterObject(box2[i].x, box2[i].y, box2[i].width, box2[i].height);
-            // RUNFACE_DETECTION = false;
-           
-            // break;
+            center_face_detect = CalCenterObject(box2[i]);
+            RUNFACE_DETECTION = false;
+
+            break;
           }
           else
           {
@@ -354,83 +390,172 @@ int main( int argc, char** argv )
       
       for(auto rec:recs)
       {
-        center_person_detect = CalCenterObject(rec.x, rec.y, rec.width, rec.height);
+        // cv::rectangle(frame, rec, cv::Scalar(0, 255, 0), 2);
+
+        center_person_detect = CalCenterObject(rec);
         if (abs(center_person_detect.x - center_face_detect.x) < dis_Face_Person){
           dis_Face_Person = abs(center_person_detect.x - center_face_detect.x);
           BoudBox_Target = rec;
-          
         }
-        r = static_cast<Rect2d>(rec);
-        
-        // -----------------------------------TRACKING -----------------------------
-        // if(isInitTracking==false)   
-        //   {
-        //     //tracker.start_track(cimg, centered_rect(point(rec.x,rec.y), rec.width, rec.height));
-        //     if(tracker->init(frame,r)==true)
-        //       std::cout << "Init ...................."  <<std::endl;
-            
-        //     //cv::rectangle(frame, rec, cv::Scalar(0, 255, 0), 2);
-        //     isInitTracking = true;
-        //   }
-
-        
-        //-----------------------------------TRACKING -----------------------------END
+       
 
         // cv::rectangle(frame, rec, cv::Scalar(0, 255, 0), 2, 1);
 
         //-----------------------------------DISTANCE -----------------------------
-        // Distance(rec.width);
+        // Distance(rec.width, frame_width);
         
-        //-----------------------------------CAMERA TRACKING -----------------------------
-        // CameraTracking(rec.x, rec.width, pan, serial_port);
-        // break;
-        //-----------------------------------CAMERA TRACKING -----------------------------END
+
       }
-        cv::rectangle(frame, BoudBox_Target, cv::Scalar(0, 255, 0), 2);
+        if(!BoudBox_Target.empty())
+          {
+            // cout<<BoudBox_Target.size()<<endl;
+            tracker.init(BoudBox_Target, frame);
+          }
+        // cv::rectangle(frame, BoudBox_Target, cv::Scalar(0, 255, 0), 2);
+        if(0 <= BoudBox_Target.x
+              && 0 <= BoudBox_Target.width
+              && BoudBox_Target.x + BoudBox_Target.width <= frame.cols
+              && 0 <= BoudBox_Target.y
+              && 0 <= BoudBox_Target.height
+              && BoudBox_Target.y + BoudBox_Target.height <= frame.rows)
+        cropTarget_1 = frame(BoudBox_Target);
 
+        isInitTracking = true;
     }	
-
     
     }
-    if (isInitTracking == true){
-  // std::cout << "Update "  <<std::endl;
-  // auto started = std::chrono::high_resolution_clock::now();
-  // tracker.update(cimg);
-  // auto done = std::chrono::high_resolution_clock::now();
-  // std::cout << "Time in milliseconds: "<<std::chrono::duration_cast<std::chrono::milliseconds>(done-started).count() << std::endl;
-  // // std::cout << tracker.get_position() <<std::endl;
-  // auto r = tracker.get_position();
-  // startX = int(r.left());
-  // startY = int(r.top());
-  // endX = int(r.right());
-  // endY = int(r.bottom());
+    if(isInitTracking == true && nFrame == 15)
+    {
+      nFrame = 0;
+      auto recs = det.detectObject(frame);
 
-  // win.set_image(cimg);
-  // win.clear_overlay();
-  // win.add_overlay(tracker.get_position());
+      if (recs.empty()){
+        std:: cout<<"no person to detect"<<std::endl;
+      }
+      else{
+        // std::cout << "Update target ...................." <<std::endl;
+        float dis_person = 1000;
+        float cen_box_ex = (CalCenterObject(BoudBox_Target)).x;
+        for(auto rec:recs){
+          if (0 <= rec.x
+              && 0 <= rec.width
+              && rec.x + rec.width <= frame.cols
+              && 0 <= rec.y
+              && 0 <= rec.height
+              && rec.y + rec.height <= frame.rows && !cropTarget_1.empty()){
+          cv::Mat imageTest = frame(rec);
+          if(!imageTest.empty()){
+          //frame(rec).copyTo(imageTest);
+          //-- Step 1: Detect the keypoints using SURF Detector, compute the descriptors
+          int minHessian = 400;
+          Ptr<SURF> detector = SURF::create( minHessian );
+          std::vector<KeyPoint> keypoints1, keypoints2;
+          Mat descriptors1, descriptors2;
+          detector->detectAndCompute( cropTarget_1, noArray(), keypoints1, descriptors1 );
+          detector->detectAndCompute( imageTest, noArray(), keypoints2, descriptors2 );
+          //-- Step 2: Matching descriptor vectors with a FLANN based matcher
+          // Since SURF is a floating-point descriptor NORM_L2 is used
+          Ptr<DescriptorMatcher> matcher = DescriptorMatcher::create(DescriptorMatcher::FLANNBASED);
+          std::vector< std::vector<DMatch> > knn_matches;
+          matcher->knnMatch( descriptors1, descriptors2, knn_matches, 2 );
+          //-- Filter matches using the Lowe's ratio test
+          const float ratio_thresh = 0.7f;
+          std::vector<DMatch> good_matches;
+          for (size_t i = 0; i < knn_matches.size(); i++)
+          {
+          if (knn_matches[i][0].distance < ratio_thresh * knn_matches[i][1].distance)
+            {
+              good_matches.push_back(knn_matches[i][0]);
+            }
+          } 
+          cout<<"Diem giong: "<<good_matches.size()<<endl;
+          if(good_matches.size() > 30){
+            BoudBox_Target = rec;
+            tracker.init(BoudBox_Target, frame);
+          }
+          string a = std::to_string(good_matches.size());
+          cv::putText(frame, a, cv::Point(BoudBox_Target.x, BoudBox_Target.y),
+          cv::FONT_HERSHEY_SIMPLEX, 0.8, cv::Scalar(255, 0, 0), 2);
+          }
+          // float dis_cal = abs((CalCenterObject(rec)).x - cen_box_ex);
+          // if(dis_cal < dis_person){
+          //   dis_person = dis_cal;
+          //   BoudBox_Target = rec;
+          // }
+          // std::cout << "Update done ...................." <<std::endl;
+          // tracker.init(BoudBox_Target, frame);
+          // std::cout << "Update done ...................." <<std::endl;
+          //BoudBox_Tracking = tracker.update(frame);
+          //cv::rectangle(frame, BoudBox_Tracking, cv::Scalar(0, 255, 0), 2, 1);
+        }
+        }
+      }
+    }
 
-  // cv::rectangle(frame, Point(startX, startY), Point(endX, endY), cv::Scalar(0, 255, 0), 2);
+    else if (isInitTracking == true){
+      // std::cout << "Tracking............." <<std::endl;
+      nFrame = nFrame + 1;
+      BoudBox_Tracking = tracker.update(frame);
+      // std::cout << "Tracking done............." <<std::endl;
+      cv::rectangle(frame, BoudBox_Tracking, cv::Scalar(0, 0, 255), 2, 1);
 
-    // Mat frame_tracking;
-    // cap >> frame_tracking;
-   
-    //tracker->update(frame,r);
-    
-    cv::rectangle(frame, r, cv::Scalar(0, 255, 0), 2, 1);
-    // cv::imshow("tracking", frame_tracking);
-    
-  }
+      // if(nFrame == 14 && 0 <= BoudBox_Tracking.x
+      //         && 0 <= BoudBox_Tracking.width
+      //         && BoudBox_Tracking.x + BoudBox_Tracking.width <= frame.cols
+      //         && 0 <= BoudBox_Tracking.y
+      //         && 0 <= BoudBox_Tracking.height
+      //         && BoudBox_Tracking.y + BoudBox_Tracking.height <= frame.rows)
+      // cropTarget_1 = frame(BoudBox_Tracking);
+      //-----------------------------------CAMERA TRACKING -----------------------------
+      //CameraTracking(frame_width, BoudBox_Tracking.x, BoudBox_Tracking.width, pan, serial_port);
+      // break;
+      //-----------------------------------CAMERA TRACKING -----------------------------END
+
+      //Move-------------------------------------------------------------------------------
+      int objX =  BoudBox_Tracking.x + BoudBox_Tracking.width/2; 
+      int errorPan = objX - frame_width/2;
+	
+      if(abs(errorPan) > 30)
+      {
+        if(errorPan > 0) //Taget in right of frame 
+          {
+            Right_pwm.stop();
+            GPIO::output(left_output_pin_1, MoveForward);
+
+            Left_pwm.start(MaxLeft);
+          }
+        else       //Taget in left of frame
+          {
+            Left_pwm.stop();
+            GPIO::output(right_output_pin2, MoveForward);
+            Right_pwm.start(MaxRight);
+          }
+      }
+      else{
+        Right_pwm.stop();
+        Left_pwm.stop();
+      }
+      //Move end------------------------------------------------------------------------
+    }
   
     cv::imshow("detection", frame);
-    auto done = std::chrono::high_resolution_clock::now();
-    //std::cout << "Time in milliseconds: "<<std::chrono::duration_cast<std::chrono::milliseconds>(done-started).count() << std::endl;
+    // video.write(frame);
     if(cv::waitKey(1) == 27)
     {
         break;
     }
   }
+  Right_pwm.stop();
+  Left_pwm.stop();
+
+  GPIO::cleanup(29);
+	GPIO::cleanup(31);
+	GPIO::cleanup(32);
+	GPIO::cleanup(33);
+
   cap.release();
-  cv::destroyAllWindows() ;
+  // video.release();
+  cv::destroyAllWindows();
   deinit(&retinaface,&mbv2facenet);
   return 0;
 }

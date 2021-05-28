@@ -61,6 +61,6 @@ byte LobotCheckSum(byte buf[]); //check sum
 void Open(int &serial_p);// open port serial
 void Config_SerialPort(int serial_port); //config port
 void LobotSerialServoMove(uint8_t id, int16_t angle, uint16_t time, int serial_port); // control servo
-void CameraTracking(int recX, int recWidth, int &pan, int serial_p); // to tracking camera
+void CameraTracking(int frameWidth, int recX, int recWidth, int &pan, int serial_p); // to tracking camera
 
 #endif

@@ -759,6 +759,60 @@ src/config.cpp.s:
 	$(MAKE) -f CMakeFiles/detect.dir/build.make CMakeFiles/detect.dir/src/config.cpp.s
 .PHONY : src/config.cpp.s
 
+src/fhog.o: src/fhog.cpp.o
+
+.PHONY : src/fhog.o
+
+# target to build an object file
+src/fhog.cpp.o:
+	$(MAKE) -f CMakeFiles/detect.dir/build.make CMakeFiles/detect.dir/src/fhog.cpp.o
+.PHONY : src/fhog.cpp.o
+
+src/fhog.i: src/fhog.cpp.i
+
+.PHONY : src/fhog.i
+
+# target to preprocess a source file
+src/fhog.cpp.i:
+	$(MAKE) -f CMakeFiles/detect.dir/build.make CMakeFiles/detect.dir/src/fhog.cpp.i
+.PHONY : src/fhog.cpp.i
+
+src/fhog.s: src/fhog.cpp.s
+
+.PHONY : src/fhog.s
+
+# target to generate assembly for a file
+src/fhog.cpp.s:
+	$(MAKE) -f CMakeFiles/detect.dir/build.make CMakeFiles/detect.dir/src/fhog.cpp.s
+.PHONY : src/fhog.cpp.s
+
+src/kcftracker.o: src/kcftracker.cpp.o
+
+.PHONY : src/kcftracker.o
+
+# target to build an object file
+src/kcftracker.cpp.o:
+	$(MAKE) -f CMakeFiles/detect.dir/build.make CMakeFiles/detect.dir/src/kcftracker.cpp.o
+.PHONY : src/kcftracker.cpp.o
+
+src/kcftracker.i: src/kcftracker.cpp.i
+
+.PHONY : src/kcftracker.i
+
+# target to preprocess a source file
+src/kcftracker.cpp.i:
+	$(MAKE) -f CMakeFiles/detect.dir/build.make CMakeFiles/detect.dir/src/kcftracker.cpp.i
+.PHONY : src/kcftracker.cpp.i
+
+src/kcftracker.s: src/kcftracker.cpp.s
+
+.PHONY : src/kcftracker.s
+
+# target to generate assembly for a file
+src/kcftracker.cpp.s:
+	$(MAKE) -f CMakeFiles/detect.dir/build.make CMakeFiles/detect.dir/src/kcftracker.cpp.s
+.PHONY : src/kcftracker.cpp.s
+
 src/utils.o: src/utils.cpp.o
 
 .PHONY : src/utils.o
@@ -876,6 +930,12 @@ help:
 	@echo "... src/config.o"
 	@echo "... src/config.i"
 	@echo "... src/config.s"
+	@echo "... src/fhog.o"
+	@echo "... src/fhog.i"
+	@echo "... src/fhog.s"
+	@echo "... src/kcftracker.o"
+	@echo "... src/kcftracker.i"
+	@echo "... src/kcftracker.s"
 	@echo "... src/utils.o"
 	@echo "... src/utils.i"
 	@echo "... src/utils.s"

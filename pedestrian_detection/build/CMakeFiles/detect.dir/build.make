@@ -201,9 +201,57 @@ CMakeFiles/detect.dir/src/config.cpp.o.provides: CMakeFiles/detect.dir/src/confi
 CMakeFiles/detect.dir/src/config.cpp.o.provides.build: CMakeFiles/detect.dir/src/config.cpp.o
 
 
+CMakeFiles/detect.dir/src/fhog.cpp.o: CMakeFiles/detect.dir/flags.make
+CMakeFiles/detect.dir/src/fhog.cpp.o: ../src/fhog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/detect.dir/src/fhog.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/detect.dir/src/fhog.cpp.o -c /home/jetson/Desktop/person_detection/pedestrian_detection/src/fhog.cpp
+
+CMakeFiles/detect.dir/src/fhog.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/detect.dir/src/fhog.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Desktop/person_detection/pedestrian_detection/src/fhog.cpp > CMakeFiles/detect.dir/src/fhog.cpp.i
+
+CMakeFiles/detect.dir/src/fhog.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/detect.dir/src/fhog.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Desktop/person_detection/pedestrian_detection/src/fhog.cpp -o CMakeFiles/detect.dir/src/fhog.cpp.s
+
+CMakeFiles/detect.dir/src/fhog.cpp.o.requires:
+
+.PHONY : CMakeFiles/detect.dir/src/fhog.cpp.o.requires
+
+CMakeFiles/detect.dir/src/fhog.cpp.o.provides: CMakeFiles/detect.dir/src/fhog.cpp.o.requires
+	$(MAKE) -f CMakeFiles/detect.dir/build.make CMakeFiles/detect.dir/src/fhog.cpp.o.provides.build
+.PHONY : CMakeFiles/detect.dir/src/fhog.cpp.o.provides
+
+CMakeFiles/detect.dir/src/fhog.cpp.o.provides.build: CMakeFiles/detect.dir/src/fhog.cpp.o
+
+
+CMakeFiles/detect.dir/src/kcftracker.cpp.o: CMakeFiles/detect.dir/flags.make
+CMakeFiles/detect.dir/src/kcftracker.cpp.o: ../src/kcftracker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/detect.dir/src/kcftracker.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/detect.dir/src/kcftracker.cpp.o -c /home/jetson/Desktop/person_detection/pedestrian_detection/src/kcftracker.cpp
+
+CMakeFiles/detect.dir/src/kcftracker.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/detect.dir/src/kcftracker.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/Desktop/person_detection/pedestrian_detection/src/kcftracker.cpp > CMakeFiles/detect.dir/src/kcftracker.cpp.i
+
+CMakeFiles/detect.dir/src/kcftracker.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/detect.dir/src/kcftracker.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/Desktop/person_detection/pedestrian_detection/src/kcftracker.cpp -o CMakeFiles/detect.dir/src/kcftracker.cpp.s
+
+CMakeFiles/detect.dir/src/kcftracker.cpp.o.requires:
+
+.PHONY : CMakeFiles/detect.dir/src/kcftracker.cpp.o.requires
+
+CMakeFiles/detect.dir/src/kcftracker.cpp.o.provides: CMakeFiles/detect.dir/src/kcftracker.cpp.o.requires
+	$(MAKE) -f CMakeFiles/detect.dir/build.make CMakeFiles/detect.dir/src/kcftracker.cpp.o.provides.build
+.PHONY : CMakeFiles/detect.dir/src/kcftracker.cpp.o.provides
+
+CMakeFiles/detect.dir/src/kcftracker.cpp.o.provides.build: CMakeFiles/detect.dir/src/kcftracker.cpp.o
+
+
 CMakeFiles/detect.dir/src/utils.cpp.o: CMakeFiles/detect.dir/flags.make
 CMakeFiles/detect.dir/src/utils.cpp.o: ../src/utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/detect.dir/src/utils.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/detect.dir/src/utils.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/detect.dir/src/utils.cpp.o -c /home/jetson/Desktop/person_detection/pedestrian_detection/src/utils.cpp
 
 CMakeFiles/detect.dir/src/utils.cpp.i: cmake_force
@@ -233,6 +281,8 @@ detect_OBJECTS = \
 "CMakeFiles/detect.dir/robot_move.cpp.o" \
 "CMakeFiles/detect.dir/src/anchor_creator.cpp.o" \
 "CMakeFiles/detect.dir/src/config.cpp.o" \
+"CMakeFiles/detect.dir/src/fhog.cpp.o" \
+"CMakeFiles/detect.dir/src/kcftracker.cpp.o" \
 "CMakeFiles/detect.dir/src/utils.cpp.o"
 
 # External object files for target detect
@@ -244,6 +294,8 @@ detect: CMakeFiles/detect.dir/camera_tracking.cpp.o
 detect: CMakeFiles/detect.dir/robot_move.cpp.o
 detect: CMakeFiles/detect.dir/src/anchor_creator.cpp.o
 detect: CMakeFiles/detect.dir/src/config.cpp.o
+detect: CMakeFiles/detect.dir/src/fhog.cpp.o
+detect: CMakeFiles/detect.dir/src/kcftracker.cpp.o
 detect: CMakeFiles/detect.dir/src/utils.cpp.o
 detect: CMakeFiles/detect.dir/build.make
 detect: /usr/local/lib/libopencv_gapi.so.4.4.0
@@ -320,7 +372,7 @@ detect: ncnn_build/glslang/OGLCompilersDLL/libOGLCompiler.a
 detect: ncnn_build/glslang/glslang/OSDependent/Unix/libOSDependent.a
 detect: ncnn_build/glslang/glslang/libGenericCodeGen.a
 detect: CMakeFiles/detect.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable detect"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable detect"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/detect.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -334,6 +386,8 @@ CMakeFiles/detect.dir/requires: CMakeFiles/detect.dir/camera_tracking.cpp.o.requ
 CMakeFiles/detect.dir/requires: CMakeFiles/detect.dir/robot_move.cpp.o.requires
 CMakeFiles/detect.dir/requires: CMakeFiles/detect.dir/src/anchor_creator.cpp.o.requires
 CMakeFiles/detect.dir/requires: CMakeFiles/detect.dir/src/config.cpp.o.requires
+CMakeFiles/detect.dir/requires: CMakeFiles/detect.dir/src/fhog.cpp.o.requires
+CMakeFiles/detect.dir/requires: CMakeFiles/detect.dir/src/kcftracker.cpp.o.requires
 CMakeFiles/detect.dir/requires: CMakeFiles/detect.dir/src/utils.cpp.o.requires
 
 .PHONY : CMakeFiles/detect.dir/requires

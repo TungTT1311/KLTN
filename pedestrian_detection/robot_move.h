@@ -11,11 +11,20 @@
 #include <math.h>
 #include <../include/JetsonGPIO.h>
 
+
+
 using namespace std;
 using namespace GPIO;
 
 inline void delay(int s);
 void signalHandler (int s);
-void Distance(int knowWidth);
+void Distance(int knowWidth, int frame_width);
 
+//void SetupMotor();
+
+//void MotorLeft(int Direct, int Speed);
+//void MotorRight(int Direct, int Speed);
+
+//void ControlMotor(int LeftDirect, int LeftSpeed, int RightDirect, int RightSpeed);
+//void Move(int frameWidth, int recX, int recWidth);
 #endif

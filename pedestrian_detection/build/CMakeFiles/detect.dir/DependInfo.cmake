@@ -9,6 +9,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/jetson/Desktop/person_detection/pedestrian_detection/robot_move.cpp" "/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/detect.dir/robot_move.cpp.o"
   "/home/jetson/Desktop/person_detection/pedestrian_detection/src/anchor_creator.cpp" "/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/detect.dir/src/anchor_creator.cpp.o"
   "/home/jetson/Desktop/person_detection/pedestrian_detection/src/config.cpp" "/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/detect.dir/src/config.cpp.o"
+  "/home/jetson/Desktop/person_detection/pedestrian_detection/src/fhog.cpp" "/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/detect.dir/src/fhog.cpp.o"
+  "/home/jetson/Desktop/person_detection/pedestrian_detection/src/kcftracker.cpp" "/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/detect.dir/src/kcftracker.cpp.o"
   "/home/jetson/Desktop/person_detection/pedestrian_detection/src/utils.cpp" "/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/detect.dir/src/utils.cpp.o"
   "/home/jetson/Desktop/person_detection/pedestrian_detection/test.cpp" "/home/jetson/Desktop/person_detection/pedestrian_detection/build/CMakeFiles/detect.dir/test.cpp.o"
   )

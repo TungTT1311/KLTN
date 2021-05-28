@@ -85,10 +85,10 @@ void Config_SerialPort(int serial_p){
   }
 }
 
-void CameraTracking(int recX, int recWidth, int &pan, int serial_p)
+void CameraTracking(int frameWidth,int recX, int recWidth, int &pan, int serial_p)
 {
   int objX = recX + recWidth/2; 
-  int errorPan=objX-1280/2;
+  int errorPan=objX-frameWidth/2;
   if(abs(errorPan)>15)
     pan = pan - errorPan/75;
   
@@ -102,6 +102,6 @@ void CameraTracking(int recX, int recWidth, int &pan, int serial_p)
     pan = 0;
     // std:: cout<<"pan out of range "<<std::endl;
   }
-  std:: cout<<"pan"<<pan<<std::endl;
+  //std:: cout<<"pan"<<pan<<std::endl;
   LobotSerialServoMove(1, pan, 0, serial_p);
 }

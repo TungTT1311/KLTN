@@ -1,8 +1,15 @@
 #include "robot_move.h"
 
 // Pin Definitions
-int output_pin1 = 29; // BOARD pin 12, BCM pin 18
-int output_pin2 = 31; // BOARD pin 12, BCM pin 18
+// Pin Definitions
+const int right_output_pwm_pin1 = 33; //pwm
+const int right_output_pin2 = 31; //
+
+
+const int left_output_pin_1 = 29; // 
+const int left_output_pwm_pin_2 = 32; // pwm
+
+
 bool end_this_program = false;
 
 
@@ -14,10 +21,10 @@ void signalHandler (int s){
 	end_this_program = true;
 }
 
-// 
-void Distance(int knowWidth)
+void Distance(int knowWidth, int frame_width)
 {
-  int focalLength = (864/2)*sqrt(3);
+ // int focalLength = (864/2)*sqrt(3);
+    int focalLength = (frame_width/2)*sqrt(3);
   // int realheight = 1750;
   // int imageheight = 720;
 
@@ -29,3 +36,4 @@ void Distance(int knowWidth)
   cout << "Distance = " << 60*focalLength/knowWidth << endl;
   cout << endl;
 }
+
