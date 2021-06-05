@@ -25,7 +25,7 @@ MESSAGE("OpenCV_Include: " ${OpenCV_INCLUDE_DIRS})
 
 add_executable(detect test.cpp object_detection.cpp camera_tracking.cpp robot_move.cpp  ${all_source})
 
-target_link_libraries(detect ${OpenCV_LIBS} -lblas -ldlib -lJetsonGPIO ncnn stdc++fs OpenMP::OpenMP_CXX)
+target_link_libraries(detect ${OpenCV_LIBS} -lblas -ldlib -lJetsonGPIO -pthread ncnn stdc++fs OpenMP::OpenMP_CXX)
 
 MESSAGE("OpenCV_LIBS: " ${OpenCV_LIBS})
 

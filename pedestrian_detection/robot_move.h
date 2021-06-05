@@ -11,20 +11,27 @@
 #include <math.h>
 #include <../include/JetsonGPIO.h>
 
+#define STOP true
+#define RUN false
 
+#define FORWARD true
+#define BACKWARD false
+
+#define MaxRight 100
+//#define MaxLeft 95
 
 using namespace std;
 using namespace GPIO;
 
 inline void delay(int s);
 void signalHandler (int s);
-void Distance(int knowWidth, int frame_width);
+int Distance(int knowWidth, int knowHeight, int frame_width, int frame_height);
+/*GPIO::PWM CreatePWMObject(int output_pin);
+void SetupMotor();
 
-//void SetupMotor();
+void MotorLeft(bool isForward, int Speed);
+void MotorRight(bool isForward, int Speed);
 
-//void MotorLeft(int Direct, int Speed);
-//void MotorRight(int Direct, int Speed);
-
-//void ControlMotor(int LeftDirect, int LeftSpeed, int RightDirect, int RightSpeed);
-//void Move(int frameWidth, int recX, int recWidth);
+void Move(int frameWidth,int frameHeight, int recX, int recWidth, int recHeight);
+void Cleanup();*/
 #endif

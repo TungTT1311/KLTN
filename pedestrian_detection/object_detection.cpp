@@ -47,7 +47,7 @@ std::vector<cv::Rect> ObjectDetection::detectObject(const cv::Mat& _frame)
 	
         objects.push_back(object);
         // Threshold
-        if(object.prob > 0.65)
+        if(object.prob > 0.75)
         {
             boxes.push_back(object.rec);
 	    

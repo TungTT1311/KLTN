@@ -337,6 +337,10 @@ chrono
 -
 iostream
 -
+thread
+-
+mutex
+-
 src/config.h
 /home/jetson/Desktop/person_detection/pedestrian_detection/src/config.h
 src/anchor_creator.h
