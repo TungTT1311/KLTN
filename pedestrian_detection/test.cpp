@@ -313,6 +313,7 @@ int main( int argc, char** argv )
   //-----------------------------DETECT FACE-------------------------------END
   std::string pipeline = "v4l2src device=/dev/video0 ! image/jpeg, width=(int)640, height=(int)480, framerate=30/1 ! jpegdec ! videoconvert ! appsink";
   cv::VideoCapture cap(pipeline, cv::CAP_GSTREAMER);
+  // cv::VideoCapture cap("/dev/video1");
   cv::Mat frame;
 
   ObjectDetection det("../../pedestrian_detection/");
@@ -544,26 +545,26 @@ int main( int argc, char** argv )
       //         && BoudBox_Tracking.y + BoudBox_Tracking.height <= frame.rows)
       // cropTarget_1 = frame(BoudBox_Tracking);
       //-----------------------------------CAMERA TRACKING -----------------------------
-      CameraTracking(frame_width, BoudBox_Tracking.x, BoudBox_Tracking.width, pan, serial_port);
+      //CameraTracking(frame_width, BoudBox_Tracking.x, BoudBox_Tracking.width, pan, serial_port);
       // break;
       //-----------------------------------CAMERA TRACKING -----------------------------END
       
       // Move(frame_width,frame_height, BoudBox_Tracking.x, BoudBox_Tracking.width, BoudBox_Tracking.height);
 
 
-      // int distance = Distance(BoudBox_Tracking.width, BoudBox_Tracking.height, frame_width, frame_height);
-      // string distancee = std::to_string(distance);
-      // cv::putText(frame, distancee, cv::Point(BoudBox_Target.x, BoudBox_Target.y),
-      // cv::FONT_HERSHEY_SIMPLEX, 0.8, cv::Scalar(255, 0, 0), 2);
+      int distance = Distance(BoudBox_Tracking.width, BoudBox_Tracking.height, frame_width, frame_height);
+      string distancee = std::to_string(distance);
+      cv::putText(frame, distancee, cv::Point(BoudBox_Target.x, BoudBox_Target.y),
+      cv::FONT_HERSHEY_SIMPLEX, 0.8, cv::Scalar(255, 0, 0), 2);
 
 
-      // int objX =  BoudBox_Tracking.x + BoudBox_Tracking.width/2; 
-      // int errorPan = objX - frame_width/2;
-      /*if(abs(errorPan) > 100)
+      int objX =  BoudBox_Tracking.x + BoudBox_Tracking.width/2; 
+      int errorPan = objX - frame_width/2;
+      if(abs(errorPan) > 100)
       {
         if(mindistance < distance && distance < maxdistance){
           CameraTracking(frame_width, BoudBox_Tracking.x, BoudBox_Tracking.width, pan, serial_port);
-          cout<<pan<<endl;
+          cout << pan << endl;
         }
         else {
           if(errorPan > 0) //Taget in right of frame 
@@ -612,11 +613,11 @@ int main( int argc, char** argv )
         p_right.start(MaxRight - 50);
         p_left.start(MaxLeft - 50);
       }
-      }*/
+      }
     }
 
     cv::imshow("detection", frame);
-     video.write(frame);
+     //video.write(frame);
     // thread writeModThread(frameWriter, frame, &video, &modVideoMutex);
     // writeModThread.detach();
 
@@ -638,7 +639,7 @@ int main( int argc, char** argv )
 	GPIO::cleanup(40);
 
   cap.release();
-  video.release();
+  //video.release();
   cv::destroyAllWindows();
   deinit(&retinaface,&mbv2facenet);
   return 0;
