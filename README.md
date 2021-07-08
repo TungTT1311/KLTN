@@ -1,8 +1,5 @@
-# person_detection
-open port serial 
-// cap quyen cho port
-sudo chmod a+rw /dev/ttyUSB0
-// compile code 
-gcc testSerialLX16a.c -o test
-// run
-./test
+-----to build all--------- 
+to open folder build and run cmake .. and make
+-------to run program-------
+run ./detect
+-------file main is test.cpp----------
