@@ -36,8 +36,8 @@ using namespace cv::xfeatures2d;
 #define maxdistance 250
 #define mindistance 180
 #define MaxRight 100
-#define MaxLeft 85
-
+#define MaxLeft 90
+#define Speed 50
 const int right_pwm_pin = 33; //pwm
 const int right_output_pin1 = 29; //
 const int right_output_pin2 = 31; //
@@ -260,9 +260,9 @@ int main( int argc, char** argv )
 {
   //Config to Camera 
   
-  Open(serial_port);
-  Config_SerialPort(serial_port); 
-  LobotSerialServoMove(1, pan, 0, serial_port);
+  // Open(serial_port);
+  // Config_SerialPort(serial_port); 
+  // LobotSerialServoMove(1, pan, 0, serial_port);
   //Move-----------------------------------------------------
   // SetupMotor();
 
@@ -311,9 +311,9 @@ int main( int argc, char** argv )
   //cv::imshow("out put detect",face_det1);
   run_mbv2facenet(&mbv2facenet, face_det1, facenet_size, feature_face1);
   //-----------------------------DETECT FACE-------------------------------END
-  std::string pipeline = "v4l2src device=/dev/video0 ! image/jpeg, width=(int)640, height=(int)480, framerate=30/1 ! jpegdec ! videoconvert ! appsink";
-  cv::VideoCapture cap(pipeline, cv::CAP_GSTREAMER);
-  // cv::VideoCapture cap("/dev/video1");
+   //std::string pipeline = "v4l2src device=/dev/video0 ! image/jpeg, width=(int)640, height=(int)480, framerate=30/1 ! jpegdec ! videoconvert ! appsink";
+   //cv::VideoCapture cap(pipeline, cv::CAP_GSTREAMER);
+  cv::VideoCapture cap("/dev/video0");
   cv::Mat frame;
 
   ObjectDetection det("../../pedestrian_detection/");
@@ -335,9 +335,9 @@ int main( int argc, char** argv )
   cv::Rect BoudBox_Target;
   cv::Rect BoudBox_Tracking;
   cv::Mat cropTarget_1;
-
+  float time_test = 0;
   int nFrame = 0;
-
+  int nFrameTest = 0;
   int frame_width = cap.get(cv::CAP_PROP_FRAME_WIDTH);
   int frame_height = cap.get(cv::CAP_PROP_FRAME_HEIGHT);
   // Define the codec and create VideoWriter object.The output is stored in 'outcpp.avi' file.
@@ -345,6 +345,7 @@ int main( int argc, char** argv )
   mutex modVideoMutex;
   while(true)
   {
+    nFrameTest++;
     cap >> frame;
     double fps = std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::system_clock::now() - m_StartTime).count();
     m_StartTime = std::chrono::system_clock::now();
@@ -444,10 +445,10 @@ int main( int argc, char** argv )
       auto recs = det.detectObject(frame);
       cv::Rect temp;
       if (recs.empty()){
-        std:: cout<<"no person to detect"<<std::endl;
+       // std:: cout<<"no person to detect"<<std::endl;
       }
       else{
-        std::cout << "Update target ...................." <<std::endl;
+       // std::cout << "Update target ...................." <<std::endl;
         float dis_person = 1000;
         float cen_box_ex = (CalCenterObject(BoudBox_Target)).x;
         int count = 0;
@@ -515,9 +516,7 @@ int main( int argc, char** argv )
             dis_person = dis_cal;
             temp = rec;
           }
-
         }
-
         }
           if(isUpDate == true && count != 0){
           // std::cout << "Update done ...................." <<std::endl;
@@ -554,7 +553,8 @@ int main( int argc, char** argv )
 
       int distance = Distance(BoudBox_Tracking.width, BoudBox_Tracking.height, frame_width, frame_height);
       string distancee = std::to_string(distance);
-      cv::putText(frame, distancee, cv::Point(BoudBox_Target.x, BoudBox_Target.y),
+      //cout<<"distacne"<<distancee<<endl;
+      cv::putText(frame, distancee, cv::Point(BoudBox_Target.x +10, BoudBox_Target.y +10),
       cv::FONT_HERSHEY_SIMPLEX, 0.8, cv::Scalar(255, 0, 0), 2);
 
 
@@ -562,26 +562,22 @@ int main( int argc, char** argv )
       int errorPan = objX - frame_width/2;
       if(abs(errorPan) > 100)
       {
-        if(mindistance < distance && distance < maxdistance){
-          CameraTracking(frame_width, BoudBox_Tracking.x, BoudBox_Tracking.width, pan, serial_port);
-          cout << pan << endl;
-        }
-        else {
-          if(errorPan > 0) //Taget in right of frame 
-            {
-              p_right.stop();
-              p_left.start(MaxLeft-50);
-              GPIO::output(left_output_pin1, GPIO::HIGH);
-              GPIO::output(left_output_pin2, GPIO::LOW);
-            }
-          else       //Taget in left of frame
-            {
-              p_left.stop();
-              p_right.start(MaxRight-50);
-              GPIO::output(right_output_pin1, GPIO::HIGH);
-              GPIO::output(right_output_pin2, GPIO::LOW);
-            }
-        }
+        if(errorPan > 0) //Taget in right of frame 
+          {
+            p_right.stop();
+            p_left.start(MaxLeft-60);
+	    //p_left.ChangeDutyCycle(MaxLeft-70);
+            GPIO::output(left_output_pin1, GPIO::HIGH);
+            GPIO::output(left_output_pin2, GPIO::LOW);
+          }
+        else       //Taget in left of frame
+          {
+            p_left.stop();
+            p_right.start(MaxRight-60);
+	    //p_right.ChangeDutyCycle(MaxRight-70);
+            GPIO::output(right_output_pin1, GPIO::HIGH);
+            GPIO::output(right_output_pin2, GPIO::LOW);
+          }
       }
       else {
         if(distance > maxdistance)
@@ -591,35 +587,40 @@ int main( int argc, char** argv )
 
           GPIO::output(left_output_pin1, GPIO::HIGH);
           GPIO::output(left_output_pin2, GPIO::LOW);
-          cout<<"tien"<<endl;
-          p_right.start(MaxRight - 50);
-          p_left.start(MaxLeft - 50);
+           cout<<"tien"<<endl;
+          p_right.start(MaxRight - Speed);
+          p_left.start(MaxLeft - Speed);
         }
       else if(mindistance < distance && distance < maxdistance)
       {
-        cout<<"stop"<<endl;
+         cout<<"stop"<<endl;
         p_left.stop();
-        p_right.stop();
+	p_right.stop();
+	//p_left.ChangeDutyCycle(0);
+        //p_right.ChangeDutyCycle(0);
       }
       else
       {
-        cout<<"Lui"<<endl;
+         cout<<"Lui"<<endl;
         GPIO::output(right_output_pin1, GPIO::LOW);
         GPIO::output(right_output_pin2, GPIO::HIGH);
 
         GPIO::output(left_output_pin1, GPIO::LOW);
         GPIO::output(left_output_pin2, GPIO::HIGH);
 
-        p_right.start(MaxRight - 50);
-        p_left.start(MaxLeft - 50);
+        p_right.start(MaxRight - Speed);
+        p_left.start(MaxLeft - Speed);
       }
       }
     }
-
+    std::chrono::duration<double> time_used = std::chrono::duration_cast<std::chrono::duration<double>>(std::chrono::system_clock::now()-m_StartTime);
+    time_test += time_used.count();
+    // cout <<"Time: "<<time_used.count()<<endl;
     cv::imshow("detection", frame);
-     //video.write(frame);
-    // thread writeModThread(frameWriter, frame, &video, &modVideoMutex);
-    // writeModThread.detach();
+    cv::Mat temp = frame.clone();
+    //  video.write(frame);
+    thread writeModThread(frameWriter, temp, &video, &modVideoMutex);
+    writeModThread.detach();
 
     if(cv::waitKey(1) == 27)
     {
@@ -628,7 +629,7 @@ int main( int argc, char** argv )
     
   }
   // Cleanup();
-
+  cout <<"Time average: "<<time_test/nFrameTest<<endl;
 	p_right.stop();
 	p_left.stop();
 	GPIO::cleanup(29);

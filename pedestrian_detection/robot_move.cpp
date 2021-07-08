@@ -15,9 +15,9 @@ const int left_output_pin2 = 40; // pwm
 bool end_this_program = false;
 
 
-inline void delay(int s){
-	this_thread::sleep_for(chrono::seconds(s));
-}
+/*void delay(int s){
+	this_thread::sleep_for(chrono::milliseconds(s));
+}*/
 
 void signalHandler (int s){
 	end_this_program = true;

@@ -23,7 +23,7 @@
 using namespace std;
 using namespace GPIO;
 
-inline void delay(int s);
+//void delay(int s);
 void signalHandler (int s);
 int Distance(int knowWidth, int knowHeight, int frame_width, int frame_height);
 /*GPIO::PWM CreatePWMObject(int output_pin);
